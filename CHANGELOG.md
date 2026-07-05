@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.1.0...v1.2.0) (2026-07-05)
+
+
+### Features
+
+* **hero.jsx:** creating hero component ([a5243f5](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/a5243f538ca81b63ca7199e16dd59db1ecf02bf3))
+
 # [1.1.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.0.0...v1.1.0) (2026-07-05)
 
 
