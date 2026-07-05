@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.0.0...v1.1.0) (2026-07-05)
+
+
+### Features
+
+* **testando:** testando ([fc56de6](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/fc56de690483e614a14297b22a981d03d8a2c950))
+
 # 1.0.0 (2026-07-05)
 
 
