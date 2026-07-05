@@ -6,7 +6,7 @@ export const header = styled.header`
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weigth: bold;
     font-family: poppins;
     padding: 1rem 2rem;
@@ -30,16 +30,12 @@ export const Logo = styled.h2`
 `;
 
 export const Hamburger = styled.button`
-  display: none;
+  display: block;
   font-size: 2rem;
   background: transparent;
   border: none;
   color: white;
   cursor: pointer;
-
-  @media (max-width: 768px) {
-    display: block;
-  }
 `;
 
 export const Menu = styled.div`
