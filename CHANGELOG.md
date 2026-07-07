@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.2.0...v1.3.0) (2026-07-07)
+
+
+### Features
+
+* **hero.jsx:** finishing hero component for mobile ([1e56143](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/1e5614301679a798a5bba37aaeeae14b5cad05d2))
+
 # [1.2.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.1.0...v1.2.0) (2026-07-05)
 
 
