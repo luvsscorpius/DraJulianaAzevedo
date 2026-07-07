@@ -1,5 +1,6 @@
 import React from 'react'
 import * as H from './Styles'
+import ImgDraJuliana from '../../Assets/img/DraJuliana.jpg'
 
 export const Hero = () => {
     return (
@@ -44,6 +45,10 @@ export const Hero = () => {
                 <p><h2>2+</h2>
                 Modalidades</p>
             </H.plusDiv>
+
+            <H.imgDiv>
+                <img src={ImgDraJuliana} alt="Imagem da Dra Juliana" />
+            </H.imgDiv>
         </H.main>
     )
 }

@@ -94,3 +94,15 @@ export const plusDiv = styled.div`
     color: #396A78;
     font-size: 14px;
 `
+
+export const imgDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    img {
+        width: 90%;
+        border-radius: 15px;
+    }
+`
