@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.3.0...v1.4.0) (2026-07-07)
+
+
+### Features
+
+* **sobre.jsx:** creating sobre.jsx component ([ea7090d](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/ea7090df90bdf8cc5c3c07693984eb66dcf08a71))
+
 # [1.3.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.2.0...v1.3.0) (2026-07-07)
 
 
