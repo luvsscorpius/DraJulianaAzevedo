@@ -21,6 +21,20 @@ export const Sobre = () => {
 
                 <p>Acredito que cada pessoa merece ser ouvida com atenção, respeito e empatia. Meu trabalho vai além do diagnóstico: é construir junto com você um caminho para o equilíbrio emocional, qualidade de vida e desenvolvimento pessoal.</p>
             </S.descDiv>
+
+            <S.palavraChaveDiv>
+                <span>
+                    <p>Especialista em Saúde Mental</p>
+                </span>
+
+                <span>
+                    <p>Pronto Clínica Luna</p>
+                </span>
+
+                <span>
+                    <p>Pouso Alegre - MG</p>
+                </span>
+            </S.palavraChaveDiv>
         </S.main>
     )
 }
