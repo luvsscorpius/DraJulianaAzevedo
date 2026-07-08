@@ -24,7 +24,7 @@ export const titleDiv = styled.div`
 `
 
 export const descDiv = styled.div`
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     
     p {
         color: #7A838F;
@@ -32,12 +32,11 @@ export const descDiv = styled.div`
 `
 
 export const palavraChaveDiv = styled.div`
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     gap: 10px;
 
     span {
@@ -54,5 +53,49 @@ export const palavraChaveDiv = styled.div`
             color: #437280;
             font-size: 14px;
         }
+    }
+`
+
+export const infoDivContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 30px 30px 30px;
+`
+
+export const card = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8F4F5;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 3px;
+    padding: 15px;
+
+    span {
+        background-color: #437280;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin
+    
+        img {
+            width: 30px;
+            background-color: #437280;
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        color: #7A838F;
+        font-size: 14px;
     }
 `
