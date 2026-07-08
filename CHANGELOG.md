@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.4.0...v1.5.0) (2026-07-08)
+
+
+### Features
+
+* **sobre.jsx:** continuing developing sobre.jsx component ([e8d256d](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/e8d256d648c354ccabccd4eecc1e5716d3d9a82e))
+* **sobre.jsx:** creating palavraChave div ([bedf0c0](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/bedf0c077f5e1e1bf7bd9375139fcff7b065a37f))
+
 # [1.4.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.3.0...v1.4.0) (2026-07-07)
 
 
