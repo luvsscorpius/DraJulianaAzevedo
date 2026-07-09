@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.5.0...v1.6.0) (2026-07-09)
+
+
+### Features
+
+* **saudemental.jsx:** creating saudeMental component ([e72d35c](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/e72d35c3e3590e4a5437b850519fbfd850cceb1b))
+
 # [1.5.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.4.0...v1.5.0) (2026-07-08)
 
 
