@@ -61,8 +61,13 @@ export const SaudeMental = () => {
 
             <S.imagesDiv>
                 <img src={saudemental1} alt="" className='saudeMental1' />
-                <img src={saudemental2} alt="" />
-                <img src={saudemental3} alt="" className='saudeMental2'/>
+                <img src={saudemental2} alt="" className='saudeMental2' />
+                <img src={saudemental3} alt="" className='saudeMental3'/>
+
+                <span>
+                    <h2>1000+</h2>
+                    <p>Pacientes atendidos com dedicação e cuidado</p>
+                </span>
             </S.imagesDiv>
         </S.main>
     )

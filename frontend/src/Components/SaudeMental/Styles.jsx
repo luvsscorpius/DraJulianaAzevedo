@@ -68,14 +68,14 @@ export const card = styled.div`
         width: 100%;
         padding: 0px 30px 0px 30px;
         font-size: 14px;
+        color: #6A707A;
     }
 `
 
 export const imagesDiv = styled.div`
     width: 100%;
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
     place-items: center;
     padding: 0px 30px 0px 30px;
     gap: 10px;
@@ -87,13 +87,36 @@ export const imagesDiv = styled.div`
 
     .saudeMental1 {
         width: 100%;
-        height: 200px;
+        height: 300px;
         object-fit: cover;
     }
 
     .saudeMental2 {
         width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .saudeMental3 {
+        width: 100%;
         height: 300px;
         object-fit: cover;
+    }
+
+    span {
+        background-color: #437280;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 30px 0px 30px;
+        color: #fff;
+        border-radius: 5px;
+        
+        p {
+            text-align: center;
+            font-size: 14px;
+        }
     }
 `
