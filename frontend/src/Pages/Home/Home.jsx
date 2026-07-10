@@ -2,6 +2,7 @@ import React from 'react'
 import { Hero } from '../../Components/Hero/Hero'
 import { Sobre } from '../../Components/Sobre/Sobre'
 import { SaudeMental } from '../../Components/SaudeMental/SaudeMental'
+import { Atendimento } from '../../Components/Atendimento/Atendimento'
 
 export const Home = () => {
   return (
@@ -9,6 +10,7 @@ export const Home = () => {
       <Hero/>
       <Sobre/>
       <SaudeMental/>
+      <Atendimento/>
     </>
   )
 }
