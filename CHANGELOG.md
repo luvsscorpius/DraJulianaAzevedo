@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.6.0...v1.7.0) (2026-07-10)
+
+
+### Features
+
+* **atendimento.jsx:** creating atendimento component ([9201db3](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/9201db39b205d1df8fa005ac18444cf52537d0a3))
+* **saudemental:** finishing saudeMental component ([0689238](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/0689238df8f51ad1b1c35331b25b8262ba64e8b2))
+
 # [1.6.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.5.0...v1.6.0) (2026-07-09)
 
 
