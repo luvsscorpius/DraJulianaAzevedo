@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.7.0...v1.8.0) (2026-07-15)
+
+
+### Features
+
+* **atendimento:** developing atendimento.jsx ([75cce1f](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/75cce1f9240faa20c6eaa7ae276291a5aa208947))
+
 # [1.7.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.6.0...v1.7.0) (2026-07-10)
 
 
