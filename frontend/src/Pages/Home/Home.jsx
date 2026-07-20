@@ -3,6 +3,7 @@ import { Hero } from '../../Components/Hero/Hero'
 import { Sobre } from '../../Components/Sobre/Sobre'
 import { SaudeMental } from '../../Components/SaudeMental/SaudeMental'
 import { Atendimento } from '../../Components/Atendimento/Atendimento'
+import { Localizacao } from '../../Components/Localizacao/Localizacao'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <Sobre/>
       <SaudeMental/>
       <Atendimento/>
+      <Localizacao/>
     </>
   )
 }
