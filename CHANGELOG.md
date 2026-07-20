@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.8.0...v1.9.0) (2026-07-20)
+
+
+### Features
+
+* **localizacao:** localizacao.jsx creating ([1d25d74](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/1d25d74dfbb85da0d9bebe7f005ac4c6e5fc59c7))
+
 # [1.8.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.7.0...v1.8.0) (2026-07-15)
 
 
