@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const main = styled.main`
-    border: 1px solid red;
 `
 
 export const titleDiv = styled.div`
@@ -29,7 +28,7 @@ export const titleDiv = styled.div`
 `
 
 export const locationDiv = styled.div`
-    padding: 0 30px;
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
