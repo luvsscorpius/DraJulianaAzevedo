@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.9.0...v1.10.0) (2026-07-21)
+
+
+### Features
+
+* **footer:** developing footer.jsx ([f5b5464](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/f5b54642426e00310acc5d23d4076a6baa5c381f))
+* **localizacao:** finishing location container ([b1f13a5](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/b1f13a5f8375a5e8acb7ad16d02b4110e2598c09))
+
 # [1.9.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.8.0...v1.9.0) (2026-07-20)
 
 
