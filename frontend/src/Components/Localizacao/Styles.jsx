@@ -30,6 +30,9 @@ export const titleDiv = styled.div`
 
 export const locationDiv = styled.div`
     padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
     .leaflet-container {
         width: 100%;
@@ -44,7 +47,7 @@ export const locationDiv = styled.div`
 
 export const locationBody = styled.div`
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-    padding: 20px 20px 0;
+    padding: 0px 20px 20px;
     border-radius: 0px 0px 10px 10px;
 
     h3 {
@@ -103,5 +106,54 @@ export const card = styled.div`
             width: 24px;
             height: 24px;
         }
+    }
+`
+
+export const facilidadesDiv = styled.div`
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding: 0px 20px 0px;
+        color: #7A838F;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+`
+
+export const agendarConsulta = styled.div`
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+    padding: 30px 20px 30px;
+    border-radius: 10px;
+    background-color: #306773;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        background-color: #fff;
+        border: none;
+        color: #306773;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: 550;
     }
 `

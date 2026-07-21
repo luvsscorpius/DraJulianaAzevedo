@@ -77,6 +77,25 @@ export const Localizacao = () => {
                     <button>Ver Rotas no Google Maps</button>
                 </L.locationBody>
 
+                <L.facilidadesDiv>
+                    <h3>Facilidades do Local</h3>
+
+                    <ul>
+                        <li>Estacionamento disponível</li>
+                        <li>Acessibilidade para cadeirantes</li>
+                        <li>Sala de espera confortável</li>
+                        <li>Consultório privativo</li>
+                        <li>Localização central</li>
+                        <li>Fácil acesso por transporte público</li>
+                    </ul>
+                </L.facilidadesDiv>
+
+                <L.agendarConsulta>
+                    <h3>Agende sua Consulta</h3>
+                    <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
+                    <button>Falar pelo WhatsApp</button>
+                </L.agendarConsulta>
+
             </L.locationDiv>
         </L.main>
     )
