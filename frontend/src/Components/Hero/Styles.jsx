@@ -93,6 +93,10 @@ export const plusDiv = styled.div`
     justify-content: space-between;
     color: #396A78;
     font-size: 14px;
+
+    @media (min-width: 768px) {
+	    width: 60%;
+    }
 `
 
 export const imgDiv = styled.div`
@@ -104,5 +108,11 @@ export const imgDiv = styled.div`
     img {
         width: 90%;
         border-radius: 15px;
+    }
+
+    @media (min-width: 768px) {
+	    img {
+            width: 70%;
+        }
     }
 `
