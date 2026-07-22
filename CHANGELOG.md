@@ -1,3 +1,11 @@
+# [1.11.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.10.0...v1.11.0) (2026-07-22)
+
+
+### Features
+
+* **hero.jsx:** developing mobileFirst for tablet ([ab6dad0](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/ab6dad03da2893db4599184ab47b22a90b07ceb9))
+* **mobilefrist:** developing design for tablets ([8b15246](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/8b152467943b865e4021245544e2797fdb6ed5d0))
+
 # [1.10.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.9.0...v1.10.0) (2026-07-21)
 
 
