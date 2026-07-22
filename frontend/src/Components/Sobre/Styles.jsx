@@ -54,6 +54,10 @@ export const palavraChaveDiv = styled.div`
             font-size: 14px;
         }
     }
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 `
 
 export const infoDivContainer = styled.div`
@@ -62,6 +66,11 @@ export const infoDivContainer = styled.div`
     flex-direction: column;
     gap: 15px;
     padding: 0px 30px 30px 30px;
+
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 `
 
 export const card = styled.div`

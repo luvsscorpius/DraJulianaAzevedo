@@ -20,6 +20,14 @@ export const TitleDiv = styled.div`
     h3 {
         font-size: 22px;
     }
+
+    @media (min-width: 768px) {
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
+    }
 `
 
 export const descDiv = styled.div`
@@ -29,6 +37,17 @@ export const descDiv = styled.div`
         font-size: 14px;
         color: #7A838F;
     }
+
+    @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            width: 70%;
+            text-align: center;
+        }
+    }
 `
 
 export const cardContainer = styled.div`
@@ -36,6 +55,11 @@ export const cardContainer = styled.div`
     flex-direction: column; 
     gap: 15px;
     padding: 0px 30px 0px 30px;
+
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 `
 
 export const card = styled.div`

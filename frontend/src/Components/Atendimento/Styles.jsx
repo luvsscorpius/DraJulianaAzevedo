@@ -31,6 +31,16 @@ export const descDiv = styled.div`
         font-size: 14px;
         color: #7A838F;
     }
+        
+    @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            width: 70%;
+        }
+    }
 `
 
 export const cardDiv = styled.div`
@@ -39,6 +49,17 @@ export const cardDiv = styled.div`
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+
+        .relogio {
+            grid-column: 1 / 3; 
+            justify-self: center; 
+        }
+    }
 `
 
 export const card = styled.div`

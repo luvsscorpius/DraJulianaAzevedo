@@ -27,6 +27,10 @@ export const footerHeaderDiv = styled.div`
         font-size: 14px;
         opacity: 80%;
     }
+
+    @media (min-width: 768px) {
+        align-items: center;
+    }
 `
 
 export const iconsDiv = styled.div`
@@ -57,6 +61,11 @@ export const iconsDiv = styled.div`
             align-items: center;
         }
     }
+
+    @media (min-width: 768px) {
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const footerBodyDiv = styled.div`
@@ -84,6 +93,11 @@ export const footerBodyDiv = styled.div`
             cursor: pointer;
         }
     }
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+    }
 `
 
 export const footerFooterDiv = styled.div`
@@ -91,6 +105,7 @@ export const footerFooterDiv = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
     p {
         font-size: 14px;

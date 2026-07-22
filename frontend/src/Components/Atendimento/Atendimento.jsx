@@ -83,7 +83,7 @@ export const Atendimento = () => {
             </A.cardBody>
           </A.card>
 
-          <A.card>
+          <A.card className='relogio'>
             <A.cardHeader className='cardClock'>
               <span>
                 <img src={clock} alt="Icone de Relógio" />
