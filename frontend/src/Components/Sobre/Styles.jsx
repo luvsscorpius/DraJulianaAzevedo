@@ -5,6 +5,28 @@ export const main = styled.main`
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+
+    @media (min-width: 1024px) {
+        gap: 0;
+        padding: 30px;
+
+        .firstContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            width: 100%;
+            gap: 0;
+            padding: 30px;
+        }
+
+        .secondContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }   
+    }
+
 `
 
 export const titleDiv = styled.div`
@@ -21,6 +43,7 @@ export const titleDiv = styled.div`
     h2 {
         font-size: 22px;
     }
+
 `
 
 export const descDiv = styled.div`
@@ -28,6 +51,15 @@ export const descDiv = styled.div`
     
     p {
         color: #7A838F;
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
+        padding: 0;
+
+        p {
+            font-size: 18px;
+        }
     }
 `
 
@@ -57,6 +89,11 @@ export const palavraChaveDiv = styled.div`
 
     @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
+        padding: 0;
     }
 `
 
@@ -106,5 +143,35 @@ export const card = styled.div`
     p {
         color: #7A838F;
         font-size: 14px;
+    }
+`
+
+export const imgDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    img {
+        width: 90%;
+        border-radius: 15px;
+    }
+
+    @media (min-width: 768px) {
+	    img {
+            width: 70%;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        justify-content: start;
+        width: 70%;
+        padding: 0 30px;
+
+        img {
+            width: 530px;
+            height: 554px;
+        }
     }
 `

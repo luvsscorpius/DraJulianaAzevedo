@@ -10,6 +10,25 @@ export const main = styled.main`
     hr {
         width: 90%;
     }
+
+    @media (min-width: 1024px) {
+	    flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        .firstContainer {
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            height: 620px;
+            padding: 0 30px;
+            justify-content: space-between;
+        }
+
+        hr {
+            width: 100%;
+        }
+    }
 `
 
 export const miniTitle = styled.div`
@@ -25,6 +44,13 @@ export const miniTitle = styled.div`
         color: #437280;
         font-weight: 500;
     }
+
+    @media (min-width: 1024px) {
+	   display: flex;
+       justify-content: start;
+       align-items: start;
+        padding: 0px 0;
+    }
 `
 
 export const titleDivContainer = styled.div`
@@ -32,6 +58,10 @@ export const titleDivContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @media (min-width: 1024px) {
+       padding: 0px 0;
+    }
 `
 
 export const titleDiv = styled.div`
@@ -49,6 +79,16 @@ export const titleDiv = styled.div`
 
     p {
         font-size: 16px;
+    }
+
+    @media (min-width: 1024px) {
+	   h2 {
+            font-size: 45px;
+       }
+
+        p {
+            font-size: 18px;
+        }
     }
 `
 
@@ -84,6 +124,15 @@ export const buttonsDiv = styled.div`
         color: #396A78;
         background-color: #fff;
     }
+
+    @media (min-width: 1024px) {
+	   flex-direction: row;
+       justify-content: start;
+
+       button {
+            width: 230px;
+       }
+    }
 `
 
 export const plusDiv = styled.div`
@@ -96,6 +145,12 @@ export const plusDiv = styled.div`
 
     @media (min-width: 768px) {
 	    width: 60%;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0px 0 0 0;
+        justify-content: space-between;
+        width: 100%;
     }
 `
 
@@ -113,6 +168,15 @@ export const imgDiv = styled.div`
     @media (min-width: 768px) {
 	    img {
             width: 70%;
+        }
+    }
+
+    @media (min-width: 1024px) {
+	    img {
+            margin-top: 30px;
+            border-radius: 15px;
+            width: 530px;
+            height: 630px;
         }
     }
 `

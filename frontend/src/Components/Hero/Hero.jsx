@@ -5,6 +5,7 @@ import ImgDraJuliana from '../../Assets/img/DraJuliana.jpg'
 export const Hero = () => {
     return (
         <H.main>
+            <span className='firstContainer'>
             <H.miniTitle>
                 <span>
                     Saúde Mental
@@ -45,6 +46,7 @@ export const Hero = () => {
                 <p><h2>2+</h2>
                 Modalidades</p>
             </H.plusDiv>
+            </span>
 
             <H.imgDiv>
                 <img src={ImgDraJuliana} alt="Imagem da Dra Juliana" />
