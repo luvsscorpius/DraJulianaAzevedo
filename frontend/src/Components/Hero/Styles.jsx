@@ -46,9 +46,9 @@ export const miniTitle = styled.div`
     }
 
     @media (min-width: 1024px) {
-	   display: flex;
-       justify-content: start;
-       align-items: start;
+	    display: flex;
+        justify-content: start;
+        align-items: start;
         padding: 0px 0;
     }
 `
@@ -60,7 +60,7 @@ export const titleDivContainer = styled.div`
     gap: 15px;
 
     @media (min-width: 1024px) {
-       padding: 0px 0;
+       padding: 10px 0;
     }
 `
 

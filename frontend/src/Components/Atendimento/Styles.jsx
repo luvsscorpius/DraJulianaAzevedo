@@ -5,6 +5,10 @@ export const main = styled.main`
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @media (min-width: 1024px) {
+        padding: 30px 60px;
+    }
 `
 
 export const titleDiv = styled.div`
@@ -21,6 +25,16 @@ export const titleDiv = styled.div`
     h2 {
         width: 80%;
         text-align: center;
+    }
+
+    @media (min-width: 1024px) {
+        p {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
     }
 `
 
@@ -41,6 +55,12 @@ export const descDiv = styled.div`
             width: 70%;
         }
     }
+
+    @media (min-width: 1024px) {
+        p {
+            font-size: 16px;
+        }
+    }
 `
 
 export const cardDiv = styled.div`
@@ -54,6 +74,19 @@ export const cardDiv = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         place-items: center;
+
+        .relogio {
+            grid-column: 1 / 3; 
+            justify-self: center; 
+        }
+    }
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        justify-self: center; 
+        padding: 0 30px;
 
         .relogio {
             grid-column: 1 / 3; 
@@ -87,6 +120,10 @@ export const card = styled.div`
         p {
             color: #7A838F;
         }
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
     }
 `
 

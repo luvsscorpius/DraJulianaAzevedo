@@ -20,7 +20,7 @@ export const Sobre = () => {
                     <img src={ImgDraJuliana} alt="Imagem da Dra. Juliana" />
                 </S.imgDiv>
 
-                <span className='secondContainer'>
+                <div className='secondContainer'>
                     <S.descDiv>
                         <p>Médica com 18 anos de dedicação ao cuidado da saúde mental. Minha missão é oferecer um atendimento que une ciência, ética e humanização, criando um espaço seguro onde cada paciente se sinta verdadeiramente acolhido e compreendido em sua jornada de bem-estar emocional.</p>
                         <br />
@@ -42,7 +42,7 @@ export const Sobre = () => {
                         </span>
                     </S.palavraChaveDiv>
 
-                </span>
+                </div>
 
             </div>
 

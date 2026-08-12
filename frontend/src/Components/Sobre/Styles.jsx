@@ -12,10 +12,9 @@ export const main = styled.main`
 
         .firstContainer {
             display: flex;
-            justify-content: space-between;
-            align-items: start;
+            align-items: center;
+            justify-content: center;
             width: 100%;
-            gap: 0;
             padding: 30px;
         }
 
@@ -24,6 +23,10 @@ export const main = styled.main`
             display: flex;
             flex-direction: column;
             gap: 10px;
+            padding: 30px;
+            align-items: center;
+            justify-content: center;
+            height: 555px;
         }   
     }
 
@@ -44,6 +47,15 @@ export const titleDiv = styled.div`
         font-size: 22px;
     }
 
+    @media (min-width: 1024px) {
+        p {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
 `
 
 export const descDiv = styled.div`
@@ -51,6 +63,7 @@ export const descDiv = styled.div`
     
     p {
         color: #7A838F;
+        text-align: justify;
     }
 
     @media (min-width: 1024px) {
@@ -84,6 +97,7 @@ export const palavraChaveDiv = styled.div`
             height: 100%;
             color: #437280;
             font-size: 14px;
+            text-align: center;
         }
     }
 
@@ -94,6 +108,11 @@ export const palavraChaveDiv = styled.div`
     @media (min-width: 1024px) {
         width: 100%;
         padding: 0;
+        grid-template-columns: 1.5fr 1fr 1fr;
+
+        span {
+            height: 40px;
+        }
     }
 `
 
@@ -107,6 +126,12 @@ export const infoDivContainer = styled.div`
     @media (min-width: 768px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+        padding: 0 60px;
     }
 `
 
@@ -166,12 +191,15 @@ export const imgDiv = styled.div`
     @media (min-width: 1024px) {
         display: flex;
         justify-content: start;
-        width: 70%;
+        align-items: start;
+        width: 100%;
         padding: 0 30px;
 
         img {
-            width: 530px;
-            height: 554px;
+            width: 100%;
+            height: 555px;
+            object-fit: cover;
+            object-position: top center; 
         }
     }
 `
