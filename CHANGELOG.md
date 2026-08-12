@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.12.0...v1.13.0) (2026-08-12)
+
+
+### Features
+
+* **mobile first:** updating desktop medias ([cc3dc1f](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/cc3dc1f2a1ec5e6b1b9f32e76873db578ade0690))
+
 # [1.12.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.11.0...v1.12.0) (2026-07-23)
 
 
