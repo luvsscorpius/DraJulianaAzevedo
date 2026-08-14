@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 export const main = styled.main`
+    @media (min-width: 1024px) {
+        diplay: flex;
+    }
 `
 
 export const titleDiv = styled.div`
@@ -31,6 +34,18 @@ export const titleDiv = styled.div`
             width: 60%;
         }
     }
+
+    @media (min-width: 1024px) {
+        gap: 0;
+
+        h3 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+    }
 `
 
 export const locationDiv = styled.div`
@@ -45,14 +60,45 @@ export const locationDiv = styled.div`
         border-radius: 10px 10px 0px 0;
     }
 
+    @media (min-width: 724px) {
+        padding: 0 30px 30px 30px;
+
+        .secondContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
     @media (min-width: 1024px) {
-        width: 70%;
+        width: 100%;
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 60px 30px;
+
+        .firstContainer {
+            width: 100%;
+        }
+
+        .secondContainer {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .leaflet-container {
+            width: 550px;
+            height: 200px;
+        }
     }
 `
 
 export const locationBody = styled.div`
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-    padding: 0px 20px 20px;
+    padding: 10px 20px 20px;
     border-radius: 0px 0px 10px 10px;
 
     h3 {
@@ -69,8 +115,11 @@ export const locationBody = styled.div`
         border-radius: 10px;
         font-weight: 500;
 
-        :hover {
+        &:hover {
             cursor: pointer;
+            opacity: 0.8;
+            transform: scale(0.93);
+            transition: all 0.5s ease;
         }
     }
 `
@@ -132,6 +181,10 @@ export const facilidadesDiv = styled.div`
         flex-direction: column;
         gap: 5px;
     }
+
+    @media (min-width: 1024px) {
+        width: 100%;
+    }
 `
 
 export const agendarConsulta = styled.div`
@@ -160,5 +213,16 @@ export const agendarConsulta = styled.div`
         height: 40px;
         border-radius: 10px;
         font-weight: 550;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+            transform: scale(0.93);
+            transition: all 0.5s ease;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
     }
 `

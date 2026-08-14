@@ -145,6 +145,7 @@ export const plusDiv = styled.div`
 
     @media (min-width: 768px) {
 	    width: 60%;
+        align-items: space-around;
     }
 
     @media (min-width: 1024px) {
@@ -163,6 +164,8 @@ export const imgDiv = styled.div`
     img {
         width: 90%;
         border-radius: 15px;
+        object-fit: cover;
+        object-position: top center; 
     }
 
     @media (min-width: 768px) {

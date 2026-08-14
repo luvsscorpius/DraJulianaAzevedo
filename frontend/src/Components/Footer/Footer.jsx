@@ -7,59 +7,61 @@ import linkedin from '../../Assets/img/linkedin.png'
 export const Footer = () => {
     return (
         <F.footer>
-            <F.footerHeaderDiv>
-                <h3>Dra. Juliana Azevedo</h3>
+            <div className="firstContainer">
+                <F.footerHeaderDiv>
+                    <h3>Dra. Juliana Azevedo</h3>
 
-                <p>Cuidando da sua saúde mental com ética, empatia e profissionalismo há 18 anos.</p>
+                    <p>Cuidando da sua saúde mental com ética, empatia e profissionalismo há 18 anos.</p>
 
-                <F.iconsDiv>
-                    <span>
-                        <a href="/#"><img src={instagram} alt="Ícone do instagram" /></a>
-                    </span>
+                    <F.iconsDiv>
+                        <span>
+                            <a href="/#"><img src={instagram} alt="Ícone do instagram" /></a>
+                        </span>
 
-                    <span>
-                        <a href="/#"><img src={facebook} alt="Ícone do facebook" className='facebook' /></a>
-                    </span>
+                        <span>
+                            <a href="/#"><img src={facebook} alt="Ícone do facebook" className='facebook' /></a>
+                        </span>
 
-                    <span>
-                        <a href="/#"><img src={linkedin} alt="Ícone do linkedin" /></a>
-                    </span>
-                </F.iconsDiv>
-            </F.footerHeaderDiv>
+                        <span>
+                            <a href="/#"><img src={linkedin} alt="Ícone do linkedin" /></a>
+                        </span>
+                    </F.iconsDiv>
+                </F.footerHeaderDiv>
 
-            <F.footerBodyDiv>
-                <div>
-                    <h4>Navegação</h4>
+                <F.footerBodyDiv>
+                    <div>
+                        <h4>Navegação</h4>
 
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Sobre</li>
-                        <li>Saúde Mental</li>
-                        <li>Atendimento</li>
-                        <li>Localização</li>
-                    </ul>
-                </div>
+                        <ul className='nav'>
+                            <li>Inicio</li>
+                            <li>Sobre</li>
+                            <li>Saúde Mental</li>
+                            <li>Atendimento</li>
+                            <li>Localização</li>
+                        </ul>
+                    </div>
 
-                <div>
-                    <h4>Contato</h4>
+                    <div>
+                        <h4>Contato</h4>
 
-                    <ul>
-                        <li>(35) 99999-9999</li>
-                        <li>contato@drajulianaazevedo.com.br</li>
-                        <li>Agendar pelo Whatsapp</li>
-                    </ul>
-                </div>
+                        <ul>
+                            <li>(35) 99999-9999</li>
+                            <li>contato@drajulianaazevedo.com.br</li>
+                            <li>Agendar pelo Whatsapp</li>
+                        </ul>
+                    </div>
 
-                <div>
-                    <h4>Localização</h4>
+                    <div>
+                        <h4>Localização</h4>
 
-                    <ul>
-                        <li>Pronto Clínica Luna <br />
-                        Rua Exemplo, 123 - CentroPouso Alegre - MG <br />
-                        CEP: 37550-000</li>
-                    </ul>
-                </div>
-            </F.footerBodyDiv>
+                        <ul>
+                            <li>Pronto Clínica Luna</li>
+                            <li>Rua Exemplo, 123 - CentroPouso Alegre - MG</li>
+                            <li>CEP: 37550-000</li>
+                        </ul>
+                    </div>
+                </F.footerBodyDiv>
+            </div>
 
             <hr />
 

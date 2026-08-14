@@ -12,6 +12,15 @@ export const footer = styled.footer`
         opacity: 80%;
         border: 1px solid #7A838F;
     }
+
+    @media (min-width: 1024px) {
+        flex-direction: column;
+
+        .firstContainer {
+            display: flex;
+            flex-direction: row;
+        }
+    }
 `
 
 export const footerHeaderDiv = styled.div`
@@ -30,6 +39,16 @@ export const footerHeaderDiv = styled.div`
 
     @media (min-width: 768px) {
         align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+        align-items: start;
+        padding: 0 60px;
+        gap: 15px;
+        
+        p {
+            width: 90%;
+        }
     }
 `
 
@@ -65,6 +84,12 @@ export const iconsDiv = styled.div`
     @media (min-width: 768px) {
         align-items: center;
         justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 1024px) {
+        align-items: start;
+        justify-content: start;
     }
 `
 
@@ -97,6 +122,13 @@ export const footerBodyDiv = styled.div`
     @media (min-width: 768px) {
         flex-direction: row;
         justify-content: center;
+    }
+
+    @media (min-width: 1024px) {
+        align-items: start;
+        width: 120%;
+        justify-content: space-around;
+        padding: 0 60px 0 0;
     }
 `
 

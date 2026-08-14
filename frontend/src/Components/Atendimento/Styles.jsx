@@ -111,6 +111,13 @@ export const card = styled.div`
             color: #fff;
             border: none;
             border-radius: 10px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+                transform: scale(0.93);
+                transition: all 0.5s ease;
+            }
         }
 
         h2 {

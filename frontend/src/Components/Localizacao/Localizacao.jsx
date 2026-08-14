@@ -17,6 +17,7 @@ export const Localizacao = () => {
                 <p>Os atendimentos presenciais são realizados em um espaço moderno e acolhedor, projetado para oferecer conforto e privacidade.</p>
             </L.titleDiv>
 
+            <div className="firstContainer">
             <L.locationDiv>
                 <div>
                     <MapContainer center={[-22.228402497927878, -45.93934999098994]} zoom={18} scrollWheelZoom={true}>
@@ -30,9 +31,8 @@ export const Localizacao = () => {
                             </Popup>
                         </Marker>
                     </MapContainer>
-                </div>
 
-                <L.locationBody>
+                    <L.locationBody>
                     <h3>Pronto Clínica Luna</h3>
 
                     <L.cardContainer>
@@ -42,10 +42,10 @@ export const Localizacao = () => {
                             </span>
 
                             <span>
-                            <h4>Endereço</h4>
-                            <p>Rua Exemplo, 123 - Centro <br />
-                                Pouso Alegre - MG <br />
-                                CEP: 37550-000 <br /></p>
+                                <h4>Endereço</h4>
+                                <p>Rua Exemplo, 123 - Centro <br />
+                                    Pouso Alegre - MG <br />
+                                    CEP: 37550-000 <br /></p>
                             </span>
                         </L.card>
 
@@ -55,9 +55,9 @@ export const Localizacao = () => {
                             </span>
 
                             <span>
-                            <h4>Contato</h4>
-                            <p>(35) 99999-9999contato <br />
-                                @draJulianaazevedo.com.br </p>
+                                <h4>Contato</h4>
+                                <p>(35) 99999-9999contato <br />
+                                    @draJulianaazevedo.com.br </p>
                             </span>
                         </L.card>
 
@@ -67,36 +67,41 @@ export const Localizacao = () => {
                             </span>
 
                             <span>
-                            <h4>Horário de Atendimento</h4>
-                            <p>Segunda a Sexta: 8h às 18h <br />
-                                Sábado: 8h às 12h</p>
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h <br />
+                                    Sábado: 8h às 12h</p>
                             </span>
                         </L.card>
                     </L.cardContainer>
 
                     <button>Ver Rotas no Google Maps</button>
                 </L.locationBody>
+                </div>
 
-                <L.facilidadesDiv>
-                    <h3>Facilidades do Local</h3>
 
-                    <ul>
-                        <li>Estacionamento disponível</li>
-                        <li>Acessibilidade para cadeirantes</li>
-                        <li>Sala de espera confortável</li>
-                        <li>Consultório privativo</li>
-                        <li>Localização central</li>
-                        <li>Fácil acesso por transporte público</li>
-                    </ul>
-                </L.facilidadesDiv>
+            <div className="secondContainer">
+                    <L.facilidadesDiv>
+                        <h3>Facilidades do Local</h3>
 
-                <L.agendarConsulta>
-                    <h3>Agende sua Consulta</h3>
-                    <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
-                    <button>Falar pelo WhatsApp</button>
-                </L.agendarConsulta>
+                        <ul>
+                            <li>Estacionamento disponível</li>
+                            <li>Acessibilidade para cadeirantes</li>
+                            <li>Sala de espera confortável</li>
+                            <li>Consultório privativo</li>
+                            <li>Localização central</li>
+                            <li>Fácil acesso por transporte público</li>
+                        </ul>
+                    </L.facilidadesDiv>
 
+                    <L.agendarConsulta>
+                        <h3>Agende sua Consulta</h3>
+                        <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
+                        <button>Falar pelo WhatsApp</button>
+                    </L.agendarConsulta>
+                </div>
             </L.locationDiv>
+            </div>
+
         </L.main>
     )
 }

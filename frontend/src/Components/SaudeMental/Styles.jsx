@@ -8,6 +8,7 @@ export const main = styled.main`
 
     @media (min-width: 768px) {
         gap: 30px;
+        padding: 30px 0px;
     }
 
     @media (min-width: 1024px) {
@@ -122,6 +123,7 @@ export const cardContainer = styled.div`
     @media (min-width: 768px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
     }
 
     @media (min-width: 1024px) {
