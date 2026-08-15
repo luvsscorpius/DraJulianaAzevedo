@@ -7,6 +7,7 @@ import markerIconPng from "leaflet/dist/images/marker-icon.png"
 import location from '../../Assets/img/locationGreen.png'
 import telephone from '../../Assets/img/telephone.png'
 import clockGreen from '../../Assets/img/clockGreen.png'
+import draJulianaCartoon from "../../Assets/img/draJulianaCartoon.png"
 
 export const Localizacao = () => {
     return (
@@ -96,6 +97,7 @@ export const Localizacao = () => {
                     <L.agendarConsulta>
                         <h3>Agende sua Consulta</h3>
                         <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
+                        <img src={draJulianaCartoon} alt="icone cartoon da Dra." />
                         <button>Falar pelo WhatsApp</button>
                     </L.agendarConsulta>
                 </div>

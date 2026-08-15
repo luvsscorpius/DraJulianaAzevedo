@@ -235,6 +235,8 @@ export const facilidadesDiv = styled.div`
 `
 
 export const agendarConsulta = styled.div`
+    position: relative;
+
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
     padding: 30px 20px 30px;
     border-radius: 10px;
@@ -244,6 +246,21 @@ export const agendarConsulta = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+
+    img {
+        width: 130px;
+        position: absolute;
+        z-index: 0;
+        right: 30px;
+        bottom: 52px;
+        opacity: 0;
+        transform: scale(0);
+        transform-origin: bottom center;
+
+        transition:
+            transform 0.5s ease,
+            opacity 0.3s ease;
+    }
 
     h3 {
         font-size: 16px;
@@ -260,12 +277,19 @@ export const agendarConsulta = styled.div`
         height: 40px;
         border-radius: 10px;
         font-weight: 550;
+        z-index: 10;
 
         &:hover {
             cursor: pointer;
-            opacity: 0.8;
             transform: scale(0.93);
             transition: all 0.5s ease;
+        }
+    }
+
+    &:has(button:hover) {
+        img {
+            opacity: 1;
+            transform: scale(1);
         }
     }
 

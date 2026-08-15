@@ -103,6 +103,31 @@ export const card = styled.div`
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 15px;
 
+        .secondContainer {
+            position: relative;
+
+            img {
+                width: 80px;
+                position: absolute;
+                z-index: 0;
+
+                /* posicionamento */
+                right: 503px;
+                bottom: -20px;
+
+                opacity: 0;
+
+                /* começa escondida */
+                transform: translateX(0px) scale(0.7) scaleX(1);
+
+                transform-origin: right center;
+
+                transition:
+                    transform 0.5s ease,
+                    opacity 0.3s ease;
+            }
+        }
+
         button {
             width: 100%;
             margin-top: 10px;
@@ -115,9 +140,17 @@ export const card = styled.div`
 
             &:hover {
                 cursor: pointer;
-                opacity: 0.8;
                 transform: scale(0.93);
                 transition: all 0.5s ease;
+            }
+        }
+
+        &:has(button:hover) {
+            .secondContainer {
+                img {
+                    opacity: 1;
+                    transform: translateX(150px) scale(1) scaleX(1);
+                }
             }
         }
 
