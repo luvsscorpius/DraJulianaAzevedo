@@ -85,7 +85,7 @@ export const TitleDiv = styled.div`
 `;
 
 export const descDiv = styled.div`
-    padding: 0 30px;
+    padding: 20px 30px;
 
     p {
         font-size: 14px;

@@ -86,7 +86,7 @@ export const palavraChaveDiv = styled.div`
 
     span {
         width: 100%;
-        height: 35px;
+        height: 45px;
         background-color: #E8F4F5;
         border-radius: 10px;
         

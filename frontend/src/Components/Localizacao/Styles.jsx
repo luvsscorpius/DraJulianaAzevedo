@@ -21,6 +21,8 @@ export const titleDiv = styled.div`
 
     h2 {
         font-size: 26px;
+        width: 100%;
+        text-align: center;
     }
 
     p {
@@ -51,15 +53,22 @@ export const titleDiv = styled.div`
 `
 
 export const locationDiv = styled.div`
-    padding: 30px 30px;
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
     .leaflet-container {
         width: 100%;
         height: 200px;
         border-radius: 10px 10px 0px 0;
+    }
+
+    .secondContainer {
+        padding: 10px 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     @media (min-width: 724px) {
@@ -149,6 +158,9 @@ export const card = styled.div`
     gap: 10px;
 
     span {
+        width: 100%;
+        min-width: 0;
+
         h4 {
             font-size: 16px;
             font-weight: 550;
@@ -157,12 +169,13 @@ export const card = styled.div`
         p {
             color: #7A838F;
             font-size: 14px;
+            overflow-wrap: break-word;
         }
     }
 
     .imgDiv {
         background-color: #E8F4F5;
-        width: 60px;
+        width: 30%;
         height: 60px;
         border-radius: 12px;
         display: flex;

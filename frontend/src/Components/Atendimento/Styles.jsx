@@ -85,8 +85,7 @@ export const cardDiv = styled.div`
     @media (min-width: 1024px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        place-items: center;
-        justify-self: center; 
+        align-items: stretch;
         padding: 0 30px;
 
         .relogio {
@@ -140,6 +139,7 @@ export const card = styled.div`
             gap: 20px;
             padding: 50px 100px;
             width: 80%;
+            height: 290px;
 
             .secondContainer {
                 display: flex;
@@ -161,7 +161,7 @@ export const card = styled.div`
 
             button {
                 width: 200px;
-                height: 40px;
+                height: 50px;
             }
         }
     }
@@ -199,6 +199,8 @@ export const cardHeader = styled.div`
     }
 
     @media (min-width: 1024px) {
+        height: 250px;
+
             p {
                 font-size: 16px;
                 font-weight: 400;
