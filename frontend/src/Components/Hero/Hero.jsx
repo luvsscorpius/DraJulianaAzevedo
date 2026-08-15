@@ -1,6 +1,6 @@
 import React from 'react'
 import * as H from './Styles'
-import ImgDraJuliana from '../../Assets/img/DraJuliana.jpg'
+import ImgDraJuliana from '../../Assets/img/DraJuliana.jpeg'
 
 export const Hero = () => {
     return (

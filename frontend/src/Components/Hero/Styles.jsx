@@ -81,6 +81,7 @@ export const titleDiv = styled.div`
 
     p {
         font-size: 16px;
+        text-align: justify;
     }
 
     @media (min-width: 1024px) {

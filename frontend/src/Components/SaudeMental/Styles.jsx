@@ -100,6 +100,7 @@ export const descDiv = styled.div`
         p {
             width: 70%;
             text-align: center;
+
         }
     }
 
@@ -108,7 +109,7 @@ export const descDiv = styled.div`
 
         p {
             width: 100%;
-            text-align: start;
+            text-align: justify;            
             font-size: 15px;
         }
     }
@@ -182,6 +183,8 @@ export const card = styled.div`
 
         p {
             font-size: 14px;
+                    text-align: justify;
+
         }
     }
 `;

@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './Styles'
-import ImgDraJuliana from '../../Assets/img/DraJuliana.jpg'
+import ImgDraJuliana from '../../Assets/img/DraJulianaHero.jpg'
 import * as H from '../Hero/Styles'
 import badge from '../../Assets/img/badge.png'
 import heart from '../../Assets/img/heart.png'

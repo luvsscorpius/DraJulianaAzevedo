@@ -107,17 +107,15 @@ export const card = styled.div`
             position: relative;
 
             img {
-                width: 80px;
+                width: 100px;
                 position: absolute;
                 z-index: 0;
 
-                /* posicionamento */
-                right: 503px;
-                bottom: -20px;
+                right: 78px;
+                bottom: 20px;
 
                 opacity: 0;
 
-                /* começa escondida */
                 transform: translateX(0px) scale(0.7) scaleX(1);
 
                 transform-origin: right center;
@@ -193,7 +191,6 @@ export const card = styled.div`
             }
 
             button {
-                width: 200px;
                 height: 50px;
             }
         }
