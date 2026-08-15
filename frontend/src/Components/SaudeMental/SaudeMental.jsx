@@ -19,7 +19,7 @@ export const SaudeMental = () => {
                 </S.TitleDiv>
 
                 <S.descDiv>
-                    <p>O acompanhamento psiquiátrico é fundamental para promover o equilíbrio emocional e melhorar sua qualidade de vida. Com o suporte adequado, você pode desenvolver recursos para enfrentar desafios, fortalecer sua saúde mental e alcançar seus objetivos pessoais.</p>
+                    <p>O acompanhamento médico é fundamental para promover o equilíbrio emocional e melhorar sua qualidade de vida. Com o suporte adequado, você pode desenvolver recursos para enfrentar desafios, fortalecer sua saúde mental e alcançar seus objetivos pessoais.</p>
                 </S.descDiv>
 
                 <S.cardContainer>

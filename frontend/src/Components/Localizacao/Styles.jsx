@@ -36,14 +36,16 @@ export const titleDiv = styled.div`
     }
 
     @media (min-width: 1024px) {
-        gap: 0;
-
         h3 {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         h2 {
-            font-size: 30px;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 16px;
         }
     }
 `
@@ -106,7 +108,7 @@ export const locationBody = styled.div`
     }
 
     button {
-        background-color: #548290;
+        background-color: #306773;
         color: #fff;
         width: 100%;
         border: 0;
@@ -120,6 +122,17 @@ export const locationBody = styled.div`
             opacity: 0.8;
             transform: scale(0.93);
             transition: all 0.5s ease;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        h3 {
+            font-size: 20px;
+        }
+
+        button {
+            font-size: 16px;
+            font-weight: 550;
         }
     }
 `
@@ -161,6 +174,18 @@ export const card = styled.div`
             height: 24px;
         }
     }
+
+    @media (min-width: 1024px) {
+        span {
+            h4 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
 `
 
 export const facilidadesDiv = styled.div`
@@ -184,6 +209,15 @@ export const facilidadesDiv = styled.div`
 
     @media (min-width: 1024px) {
         width: 100%;
+        padding: 30px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        ul {
+            font-size: 16px;
+        }
     }
 `
 
@@ -224,5 +258,18 @@ export const agendarConsulta = styled.div`
 
     @media (min-width: 1024px) {
         width: 100%;
+        padding: 30px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        button {
+            font-size: 16px;
+        }
     }
 `

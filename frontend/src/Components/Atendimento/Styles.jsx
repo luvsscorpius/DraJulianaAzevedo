@@ -59,6 +59,7 @@ export const descDiv = styled.div`
     @media (min-width: 1024px) {
         p {
             font-size: 16px;
+            font-weight: 400;
         }
     }
 `
@@ -111,6 +112,7 @@ export const card = styled.div`
             color: #fff;
             border: none;
             border-radius: 10px;
+            font-weight: 550;
 
             &:hover {
                 cursor: pointer;
@@ -130,7 +132,38 @@ export const card = styled.div`
     }
 
     @media (min-width: 1024px) {
-        width: 100%;
+        justify-items: center;
+
+        .cardClock {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 50px 100px;
+            width: 80%;
+
+            .secondContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 0;
+                margin: 0;
+            }
+
+            .secondContainer h2 {
+                margin: 0;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            button {
+                width: 200px;
+                height: 40px;
+            }
+        }
     }
 `
 
@@ -164,6 +197,13 @@ export const cardHeader = styled.div`
         font-size: 14px;
         font-weight: 300;
     }
+
+    @media (min-width: 1024px) {
+            p {
+                font-size: 16px;
+                font-weight: 400;
+            }
+    }
 `
 
 export const cardBody = styled.div`
@@ -184,6 +224,17 @@ export const cardBody = styled.div`
         p {
             font-size: 14px;
             font-weight: 300;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
+
+        span {
+            p {
+                font-size: 14px;
+                font-weight: 400;
+            }
         }
     }
 `

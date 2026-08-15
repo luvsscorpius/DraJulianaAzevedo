@@ -15,6 +15,7 @@ export const main = styled.main`
 	    flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        padding-top: 100px;
 
         .firstContainer {
             display: flex;
@@ -23,6 +24,7 @@ export const main = styled.main`
             height: 620px;
             padding: 0 30px;
             justify-content: space-between;
+            
         }
 
         hr {

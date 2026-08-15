@@ -10,7 +10,7 @@ export const Header = () => {
     <H.header>
       <h2>Dra. Juliana Azevedo</h2>
 
-      <button onClick={() => setOpen(!open)}>
+      <button className='menuButton' onClick={() => setOpen(!open)}>
         <IoMdMenu size={35} />
       </button>
 

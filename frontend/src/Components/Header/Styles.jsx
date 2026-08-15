@@ -23,10 +23,24 @@ export const header = styled.header`
         border: none;
         color: #437280;
     }
+
+    @media (min-width: 1024px) {
+        position: fixed;
+        width: 100%;
+        z-index: 100000;
+        
+        .menuButton {
+            display: none;
+        }
+    }
 `
 
 export const Logo = styled.h2`
   margin: 0;
+
+  @media (min-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 export const Hamburger = styled.button`
@@ -120,6 +134,40 @@ export const Menu = styled.div`
                 cursor: pointer;
                 opacity: 0.8;
                 transform: scale(0.93);
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        position: static;
+        width: 60%;
+        height: 100%;
+        overflow: visible;
+        opacity: 1;
+        max-height: none;
+        background: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        button {
+            width: 190px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        ul {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 35px;
+            padding: 0;
+            width: 100%;
+
+            a {
+                font-weight: 500;
             }
         }
     }

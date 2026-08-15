@@ -43,9 +43,9 @@ export const Localizacao = () => {
 
                             <span>
                                 <h4>Endereço</h4>
-                                <p>Rua Exemplo, 123 - Centro <br />
+                                <p>Rua Cel. Otávio Meyer, 223 - Centro<br />
                                     Pouso Alegre - MG <br />
-                                    CEP: 37550-000 <br /></p>
+                                    CEP: 37550-067 <br /></p>
                             </span>
                         </L.card>
 
@@ -56,8 +56,9 @@ export const Localizacao = () => {
 
                             <span>
                                 <h4>Contato</h4>
-                                <p>(35) 99999-9999contato <br />
-                                    @draJulianaazevedo.com.br </p>
+                                <p>(35) 9 9921-5198 <br />
+                                financeiro@wsmedicinadotrabalho.com.br
+                                </p>
                             </span>
                         </L.card>
 
@@ -68,8 +69,7 @@ export const Localizacao = () => {
 
                             <span>
                                 <h4>Horário de Atendimento</h4>
-                                <p>Segunda a Sexta: 8h às 18h <br />
-                                    Sábado: 8h às 12h</p>
+                                <p>Segunda a Sexta: 8h às 18h</p>
                             </span>
                         </L.card>
                     </L.cardContainer>

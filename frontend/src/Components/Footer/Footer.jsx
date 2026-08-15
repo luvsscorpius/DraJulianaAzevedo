@@ -45,8 +45,8 @@ export const Footer = () => {
                         <h4>Contato</h4>
 
                         <ul>
-                            <li>(35) 99999-9999</li>
-                            <li>contato@drajulianaazevedo.com.br</li>
+                            <li>(35) 9 9921-5198</li>
+                            <li>financeiro@wsmedicinadotrabalho.com.br</li>
                             <li>Agendar pelo Whatsapp</li>
                         </ul>
                     </div>
@@ -56,8 +56,8 @@ export const Footer = () => {
 
                         <ul>
                             <li>Pronto Clínica Luna</li>
-                            <li>Rua Exemplo, 123 - CentroPouso Alegre - MG</li>
-                            <li>CEP: 37550-000</li>
+                            <li>Rua Cel. Otávio Meyer, 223 - Centro</li>
+                            <li>CEP: 37550-067</li>
                         </ul>
                     </div>
                 </F.footerBodyDiv>
@@ -66,9 +66,15 @@ export const Footer = () => {
             <hr />
 
             <F.footerFooterDiv>
-                <p>© 2026 Dra. Juliana Azevedo. Todos os direitos reservados.</p>
-                <p>Desenvolvido com ❤️ para cuidar de você</p>
-                <p>Desenvolvido por Anderson Vitor</p>
+                <div className="firstContainer">
+                    <p>© 2026 Dra. Juliana Azevedo. Todos os direitos reservados.</p>
+                </div>
+
+                <div className="secondContainer">
+                    <p>Desenvolvido com ❤️ para cuidar de você</p>
+                    <p>Desenvolvido por Anderson Vitor</p>
+                </div>
+
             </F.footerFooterDiv>
         </F.footer>
     )

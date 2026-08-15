@@ -143,6 +143,21 @@ export const footerFooterDiv = styled.div`
         font-size: 14px;
         opacity: 80%;
     }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 60px;
+
+        .secondContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
 `
 
 
