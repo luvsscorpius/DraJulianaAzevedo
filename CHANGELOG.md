@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.16.0...v1.17.0) (2026-08-15)
+
+
+### Features
+
+* **photo:** photo ([f83c901](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/f83c901a9a3f89dde595729d3660cd7d8fc8a562))
+
 # [1.16.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.15.1...v1.16.0) (2026-08-15)
 
 
