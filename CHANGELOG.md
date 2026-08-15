@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.15.1...v1.16.0) (2026-08-15)
+
+
+### Features
+
+* **frontend:** cartoon ([1f48710](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/1f48710f400f0427b70006c11d3afbf81a78a3b0))
+
 ## [1.15.1](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.15.0...v1.15.1) (2026-08-15)
 
 
