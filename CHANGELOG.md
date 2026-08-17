@@ -1,3 +1,11 @@
+# [1.18.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.17.0...v1.18.0) (2026-08-17)
+
+
+### Features
+
+* **icon:** icon ([f59639e](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/f59639e819cd642d49a81ac08d1bd1ed935da72a))
+* **scroll animation:** implementing scroll animation on header ([db87c85](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/db87c8501b961547226b7bb53707d5e4b7d7d6a1))
+
 # [1.17.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.16.0...v1.17.0) (2026-08-15)
 
 
