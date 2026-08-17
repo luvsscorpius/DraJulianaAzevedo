@@ -1,3 +1,11 @@
+# [1.19.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.18.0...v1.19.0) (2026-08-17)
+
+
+### Features
+
+* **assets:** converting images to .webp ([6abb2be](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/6abb2be493d698e838e63431ddb56c433c5ff524))
+* **opacity:** opacity ([685c82f](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/685c82f480801519cb5e7f694a802345983b8da9))
+
 # [1.18.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.17.0...v1.18.0) (2026-08-17)
 
 
