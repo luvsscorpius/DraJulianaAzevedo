@@ -9,7 +9,7 @@ import user from '../../Assets/img/user.png'
 
 export const Sobre = () => {
     return (
-        <S.main>
+        <S.main id="sobre">
             <S.titleDiv>
                 <p>SOBRE A PROFISSIONAL</p>
                 <h2>Dra. Juliana Azevedo</h2>

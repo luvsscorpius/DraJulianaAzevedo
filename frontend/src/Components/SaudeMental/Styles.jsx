@@ -5,6 +5,7 @@ export const main = styled.main`
     flex-direction: column;
     gap: 20px;
     background: linear-gradient(to top, #F2F8FA, #FFFFFF);
+    scroll-margin-top: 80px;
 
     @media (min-width: 768px) {
         gap: 30px;

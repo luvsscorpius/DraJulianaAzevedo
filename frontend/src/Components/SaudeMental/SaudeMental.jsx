@@ -10,7 +10,7 @@ import saudemental3 from '../../Assets/img/saudemental3.jpeg'
 
 export const SaudeMental = () => {
     return (
-        <S.main>
+        <S.main id="saudeMental">
             <div className="firstContainer">
                 <S.TitleDiv>
                     <p>POR QUE CUIDAR?</p>

@@ -5,6 +5,7 @@ export const main = styled.main`
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+    scroll-margin-top: 80px;
 
     @media (min-width: 1024px) {
         gap: 0;

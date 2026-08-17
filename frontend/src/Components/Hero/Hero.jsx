@@ -4,7 +4,7 @@ import ImgDraJuliana from '../../Assets/img/DraJuliana.jpeg'
 
 export const Hero = () => {
     return (
-        <H.main>
+        <H.main id="inicio">
             <span className='firstContainer'>
             <H.miniTitle>
                 <span>

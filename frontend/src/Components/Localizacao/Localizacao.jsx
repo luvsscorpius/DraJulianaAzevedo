@@ -11,7 +11,7 @@ import draJulianaCartoon from "../../Assets/img/draJulianaCartoon.png"
 
 export const Localizacao = () => {
     return (
-        <L.main>
+        <L.main id='localizacao'> 
             <L.titleDiv>
                 <h3>ONDE ESTAMOS</h3>
                 <h2>Local de Atendimento</h2>

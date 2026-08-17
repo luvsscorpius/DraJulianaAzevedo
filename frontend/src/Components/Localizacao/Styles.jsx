@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const main = styled.main`
+    scroll-margin-top: 80px;
+
     @media (min-width: 1024px) {
         diplay: flex;
     }
