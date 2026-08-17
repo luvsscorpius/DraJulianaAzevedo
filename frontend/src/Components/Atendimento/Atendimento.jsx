@@ -3,7 +3,7 @@ import * as A from './Styles'
 import location from '../../Assets/img/location.png'
 import checked from '../../Assets/img/checked.png'
 import clock from '../../Assets/img/clock.png'
-import draJulianaCartoon2 from "../../Assets/img/draJulianaCartoon2.png"
+import draJulianaHorario from "../../Assets/img/draJulianaHorario.png"
 
 export const Atendimento = () => {
   return (
@@ -96,7 +96,7 @@ export const Atendimento = () => {
               <h2>Horários Flexíveis</h2>
               <p>Oferecemos horários adaptados à sua rotina, incluindo opções durante a semana. Entre em contato para verificar disponibilidade e agendar sua consulta.</p>
 
-              <img src={draJulianaCartoon2} alt="Icone da Dra. cartoon" />
+              <img src={draJulianaHorario} alt="Icone da Dra. cartoon" />
               <button>Consultar Horários</button>
             </div>
           </A.cardHeader>

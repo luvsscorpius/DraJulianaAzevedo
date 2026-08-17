@@ -107,12 +107,12 @@ export const card = styled.div`
             position: relative;
 
             img {
-                width: 100px;
+                width: 250px;
                 position: absolute;
-                z-index: 0;
+                z-index: 1;
 
-                right: 78px;
-                bottom: 20px;
+                right: 280px;
+                top: 90px;
 
                 opacity: 0;
 
@@ -147,7 +147,7 @@ export const card = styled.div`
             .secondContainer {
                 img {
                     opacity: 1;
-                    transform: translateX(150px) scale(1) scaleX(1);
+                    transform: translateX(0px) scale(1) scaleX(1);
                 }
             }
         }
