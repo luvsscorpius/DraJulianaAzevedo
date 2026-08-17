@@ -1,9 +1,9 @@
 import React from 'react'
 import * as A from './Styles'
-import location from '../../Assets/img/location.png'
-import checked from '../../Assets/img/checked.png'
-import clock from '../../Assets/img/clock.png'
-import draJulianaHorario from "../../Assets/img/draJulianaHorario.png"
+import location from '../../Assets/img/location.webp'
+import checked from '../../Assets/img/checked.webp'
+import clock from '../../Assets/img/clock.webp'
+import draJulianaHorario from "../../Assets/img/draJulianaHorario.webp"
 
 export const Atendimento = () => {
   return (

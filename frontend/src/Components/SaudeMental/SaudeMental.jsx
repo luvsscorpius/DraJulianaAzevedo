@@ -1,12 +1,12 @@
 import React from 'react'
 import * as S from './Styles'
-import brain from '../../Assets/img/brain.png'
-import smile from '../../Assets/img/smile.png'
-import chart from '../../Assets/img/chart.png'
-import shield from '../../Assets/img/shield.png'
-import saudemental1 from '../../Assets/img/saudemental1.jpeg'
-import saudemental2 from '../../Assets/img/saudemental2.jpeg'
-import saudemental3 from '../../Assets/img/saudemental3.jpeg'
+import brain from '../../Assets/img/brain.webp'
+import smile from '../../Assets/img/smile.webp'
+import chart from '../../Assets/img/chart.webp'
+import shield from '../../Assets/img/shield.webp'
+import saudemental1 from '../../Assets/img/saudemental1.webp'
+import saudemental2 from '../../Assets/img/saudemental2.webp'
+import saudemental3 from '../../Assets/img/saudemental3.webp'
 
 export const SaudeMental = () => {
     return (

@@ -4,10 +4,10 @@ import { Marker, Popup, MapContainer } from "react-leaflet"
 import { TileLayer } from 'react-leaflet/TileLayer'
 import { Icon } from 'leaflet'
 import markerIconPng from "leaflet/dist/images/marker-icon.png"
-import location from '../../Assets/img/locationGreen.png'
-import telephone from '../../Assets/img/telephone.png'
-import clockGreen from '../../Assets/img/clockGreen.png'
-import draJulianaCartoon from "../../Assets/img/draJulianaCartoon.png"
+import location from '../../Assets/img/locationGreen.webp'
+import telephone from '../../Assets/img/telephone.webp'
+import clockGreen from '../../Assets/img/clockGreen.webp'
+import draJulianaCartoon from "../../Assets/img/draJulianaCartoon.webp"
 
 export const Localizacao = () => {
     return (

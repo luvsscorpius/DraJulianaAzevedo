@@ -1,11 +1,10 @@
 import React from 'react'
 import * as S from './Styles'
-import ImgDraJuliana from '../../Assets/img/DraJulianaHero.jpg'
-import * as H from '../Hero/Styles'
-import badge from '../../Assets/img/badge.png'
-import heart from '../../Assets/img/heart.png'
-import book from '../../Assets/img/book.png'
-import user from '../../Assets/img/user.png'
+import ImgDraJuliana from '../../Assets/img/DraJulianaHero.webp'
+import badge from '../../Assets/img/badge.webp'
+import heart from '../../Assets/img/heart.webp'
+import book from '../../Assets/img/book.webp'
+import user from '../../Assets/img/user.webp'
 
 export const Sobre = () => {
     return (

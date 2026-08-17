@@ -146,7 +146,7 @@ export const card = styled.div`
         &:has(button:hover) {
             .secondContainer {
                 img {
-                    opacity: 1;
+                    opacity: 2;
                     transform: translateX(0px) scale(1) scaleX(1);
                 }
             }

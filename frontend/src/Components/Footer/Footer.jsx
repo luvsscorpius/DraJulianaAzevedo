@@ -1,8 +1,8 @@
 import React from 'react'
 import * as F from './Styles'
-import instagram from '../../Assets/img/instagram.png'
-import facebook from '../../Assets/img/facebook.png'
-import linkedin from '../../Assets/img/linkedin.png'
+import instagram from '../../Assets/img/instagram.webp'
+import facebook from '../../Assets/img/facebook.webp'
+import linkedin from '../../Assets/img/linkedin.webp'
 
 export const Footer = () => {
     return (
