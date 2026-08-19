@@ -1,6 +1,7 @@
 import React from 'react'
 import * as H from './Styles'
 import ImgDraJuliana from '../../Assets/img/DraJuliana.webp'
+import blobHero from '../../Assets/img/blobHero.svg'
 
 export const Hero = () => {
     return (
@@ -22,6 +23,8 @@ export const Hero = () => {
                     <p>
                         Bem-vindo ao espaço de cuidado e acolhimento da Dra. Juliana Azevedo. Aqui você encontra um atendimento psiquiátrico humanizado, baseado em ciência, escuta ativa e respeito à sua jornada.
                     </p>
+                    
+                    <img src={blobHero} alt="Blob do componente hero" />
                 </H.titleDiv>
 
                 <H.buttonsDiv>

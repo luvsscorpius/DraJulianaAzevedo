@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const main = styled.main`
     font-size: 12px;
-    background: linear-gradient(to bottom, #F2F8FA, #FFFFFF);
+    background: #F2F9FB;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +45,7 @@ export const miniTitle = styled.div`
         border-radius: 10px;
         color: #437280;
         font-weight: 500;
+        z-index: 1;
     }
 
     @media (min-width: 1024px) {
@@ -60,6 +61,7 @@ export const titleDivContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
+    position: relative;
 
     @media (min-width: 1024px) {
        padding: 10px 0;
@@ -70,9 +72,11 @@ export const titleDiv = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
 
     h2 {
         font-size: 25px;
+        z-index: 1;
 
         span {
             color: #396A78;
@@ -82,6 +86,18 @@ export const titleDiv = styled.div`
     p {
         font-size: 16px;
         text-align: justify;
+        z-index: 1;
+    }
+
+    img {   
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: -150px;
+        left: 40px;
+        z-index: 0;
+        pointer-events: none;
+        user-select: none;
     }
 
     @media (min-width: 1024px) {
@@ -109,6 +125,7 @@ export const buttonsDiv = styled.div`
         font-weight: 500;
         border: 1px solid #396A78;
         font-size: 16px;
+        z-index: 1;
     }
 
     button:hover {
