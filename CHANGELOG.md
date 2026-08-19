@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.19.0...v1.20.0) (2026-08-19)
+
+
+### Features
+
+* **blob:** blob ([1fbcde8](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/1fbcde8e946101b66476aa1f4c0eacccb1e9cef4))
+
 # [1.19.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.18.0...v1.19.0) (2026-08-17)
 
 
