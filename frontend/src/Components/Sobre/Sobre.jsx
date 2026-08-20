@@ -21,10 +21,47 @@ export const Sobre = () => {
 
                 <div className='secondContainer'>
                     <S.descDiv>
-                        <p>Médica com 18 anos de dedicação ao cuidado da saúde mental. Minha missão é oferecer um atendimento que une ciência, ética e humanização, criando um espaço seguro onde cada paciente se sinta verdadeiramente acolhido e compreendido em sua jornada de bem-estar emocional.</p>
+                        <p>Médica com 18 anos de experiência e dedicação ao cuidado integral da saúde mental. </p> <br />
+
+                        <p>
+                            Minha missão é oferecer um atendimento que une ciência, ética, escuta e humanização, proporcionando um espaço seguro e acolhedor, no qual cada paciente possa se sentir verdadeiramente ouvido, compreendido e respeitado em sua trajetória.
+                        </p>
+
                         <br />
 
-                        <p>Acredito que cada pessoa merece ser ouvida com atenção, respeito e empatia. Meu trabalho vai além do diagnóstico: é construir junto com você um caminho para o equilíbrio emocional, qualidade de vida e desenvolvimento pessoal.</p>
+                        <p>
+                            Acredito que cuidar da saúde mental vai muito além de estabelecer um diagnóstico. Cada pessoa possui uma história, necessidades e desafios únicos. Por isso, meu trabalho é construir, junto com cada paciente, um plano de cuidado individualizado, baseado em evidências científicas e, principalmente, em uma relação de confiança.
+                        </p>
+
+                        <br />
+
+                        <p>
+                            Meu propósito é auxiliar na busca por equilíbrio emocional, qualidade de vida e bem-estar, respeitando o tempo, a história e as particularidades de cada pessoa.
+                        </p>
+
+                        <br />
+
+                        <h3>Formação e experiência</h3>
+
+                        <br />
+
+                        <p>Sou formada em Medicina pela Universidade do Vale do Sapucaí (UNIVÁS), em 2008.</p>
+
+                        <br />
+
+                        <p>Entre 2018 e 2020, realizei estágio na área de Psiquiatria no Hospital das Clínicas Samuel Libânio (HCSL), período que contribuiu de forma significativa para minha formação e experiência no cuidado em saúde mental.</p>
+
+                        <br />
+
+                        <p>
+                            Atualmente, atendo em consultório particular e também atuo na Clínica Almeida Barros, com experiência no acompanhamento de pacientes com transtornos relacionados ao uso de substâncias e dependência química.
+                        </p>
+
+                        <br />
+
+                        <p>
+                            Meu compromisso é oferecer um atendimento médico baseado em conhecimento científico, mas sem perder aquilo que considero essencial: olhar para o paciente como um todo, com acolhimento, respeito e humanidade.
+                        </p>
                     </S.descDiv>
 
                     <S.palavraChaveDiv>
@@ -33,11 +70,15 @@ export const Sobre = () => {
                         </span>
 
                         <span>
+                            <p>Pouso Alegre - MG</p>
+                        </span>
+
+                        <span>
                             <p>Pronto Clínica Luna</p>
                         </span>
 
                         <span>
-                            <p>Pouso Alegre - MG</p>
+                            <p>Clínica Almeida Barros</p>
                         </span>
                     </S.palavraChaveDiv>
 
@@ -53,7 +94,7 @@ export const Sobre = () => {
 
                     <h2>18 Anos de Experiência</h2>
 
-                    <p>Experiência consolidada na área médica, com formação sólida e atualização constante.</p>
+                    <p>Experiência consolidada na área médica.</p>
                 </S.card>
 
                 <S.card>
@@ -63,7 +104,7 @@ export const Sobre = () => {
 
                     <h2>Escuta Ativa</h2>
 
-                    <p>Abordagem humanizada que prioriza o acolhimento e a compreensão das necessidades individuais.</p>
+                    <p>Abordagem humanizada e acolhedora.</p>
                 </S.card>
 
                 <S.card>
@@ -73,7 +114,7 @@ export const Sobre = () => {
 
                     <h2>Ciência e Ética</h2>
 
-                    <p>Tratamento baseado em evidências científicas com compromisso ético e profissional.</p>
+                    <p>Tratamento com base em evidências.</p>
                 </S.card>
 
                 <S.card>
@@ -83,7 +124,7 @@ export const Sobre = () => {
 
                     <h2>Atendimento Individualizado</h2>
 
-                    <p>Cada paciente é único e recebe cuidado personalizado para suas necessidades específicas.</p>
+                    <p>Cada paciente é único.</p>
                 </S.card>
             </S.infoDivContainer>
         </S.main>

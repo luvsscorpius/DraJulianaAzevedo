@@ -97,6 +97,7 @@ export const footerBodyDiv = styled.div`
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-top: 20px;
 
     h4 {
         font-size: 15px;
@@ -138,6 +139,16 @@ export const footerFooterDiv = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
+
+    .firstContainer {
+        text-align: center;
+    }
+
+    .secondContainer {
+        p {
+            text-align: center; 
+        }
+    }
 
     p {
         font-size: 14px;

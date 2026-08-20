@@ -4,8 +4,9 @@ export const main = styled.main`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(to top, #F2F8FA, #FFFFFF);
+    background: ${({theme}) => theme.colors.beje};
     scroll-margin-top: 80px;
+    padding: 30px 0;
 
     @media (min-width: 768px) {
         gap: 30px;
@@ -44,10 +45,10 @@ export const TitleDiv = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    padding: 0 30px;
+    padding: 0px 30px;
 
     p {
-        color: #437280;
+        color: ${({theme}) => theme.colors.titles};
         font-size: 16px;
     }
 
@@ -90,7 +91,7 @@ export const descDiv = styled.div`
 
     p {
         font-size: 14px;
-        color: #7a838f;
+        color: ${({theme}) => theme.colors.p};
     }
 
     @media (min-width: 768px) {
@@ -101,7 +102,6 @@ export const descDiv = styled.div`
         p {
             width: 70%;
             text-align: center;
-
         }
     }
 
@@ -172,7 +172,7 @@ export const card = styled.div`
         padding: 0;
         margin: 0;
         font-size: 14px;
-        color: #6a707a;
+        color: ${({theme}) => theme.colors.p};
     }
 
     @media (min-width: 1024px) {

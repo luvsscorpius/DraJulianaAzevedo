@@ -67,6 +67,12 @@ export const descDiv = styled.div`
         text-align: justify;
     }
 
+    h3 {
+        width: 100%;
+        text-align: center;
+        color: ${({theme}) => theme.colors.titles}
+    }
+
     @media (min-width: 1024px) {
         width: 100%;
         padding: 0;
@@ -79,24 +85,26 @@ export const descDiv = styled.div`
 
 export const palavraChaveDiv = styled.div`
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     padding: 0px 30px 30px 30px;
-    gap: 10px;
+    gap: 20px;
 
     span {
         width: 100%;
         height: 45px;
-        background-color: #E8F4F5;
-        border-radius: 10px;
+        background-color: ${({ theme }) => theme.colors.white};
+        border-left: 3px solid ${({ theme }) => theme.colors.titles};
+        border-radius: 0 10px 10px 0px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
         
         p {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100%;
-            color: #437280;
+            color: ${({ theme }) => theme.colors.titles};
             font-size: 14px;
             text-align: center;
         }
@@ -109,10 +117,11 @@ export const palavraChaveDiv = styled.div`
     @media (min-width: 1024px) {
         width: 100%;
         padding: 0;
-        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
 
         span {
-            height: 40px;
+            height: 50px;
         }
     }
 `
@@ -140,9 +149,11 @@ export const card = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #E8F4F5;
+    background-color: ${({ theme }) => theme.colors.white};
+    border-left: 3px solid ${({ theme }) => theme.colors.titles};
+    border-radius: 0 10px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
     padding: 10px;
-    border-radius: 10px;
     gap: 3px;
     padding: 15px;
 
@@ -154,7 +165,6 @@ export const card = styled.div`
         align-items: center;
         justify-content: center;
         border-radius: 8px;
-        margin
     
         img {
             width: 30px;
@@ -164,6 +174,7 @@ export const card = styled.div`
 
     h2 {
         font-size: 20px;
+        color: ${({ theme }) => theme.colors.titles};
     }
 
     p {

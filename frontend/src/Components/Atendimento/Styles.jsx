@@ -18,7 +18,7 @@ export const titleDiv = styled.div`
     justify-content: center;
 
     p { 
-        color: #437280;
+        color: ${({theme}) => theme.colors.titles};
         font-size: 16px;
     }
 
@@ -43,7 +43,7 @@ export const descDiv = styled.div`
         text-align: center;
         padding: 0px 30px 0px 30px;
         font-size: 14px;
-        color: #7A838F;
+        color: ${({theme}) => theme.colors.p};
     }
         
     @media (min-width: 768px) {

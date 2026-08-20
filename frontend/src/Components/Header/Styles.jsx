@@ -3,25 +3,23 @@ import styled from 'styled-components'
 export const header = styled.header`
     background-color: red;
     height: 100px;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.colors.white};
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weigth: bold;
     font-family: poppins;
     padding: 1rem 2rem;
-    background: #fff;
-    color: white;
-    position: relative;
+    position: relative; 
 
     h2 {
-        color: #437280;
+        color: ${({ theme }) => theme.colors.titles};
     }
 
     button {
-        background-color: #fff;
+        background-color: ${({ theme }) => theme.colors.white};
         border: none;
-        color: #437280;
+        color: ${({ theme }) => theme.colors.button};
     }
 
     @media (min-width: 1024px) {
@@ -48,7 +46,7 @@ export const Hamburger = styled.button`
   font-size: 2rem;
   background: transparent;
   border: none;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
 `;
 
@@ -58,7 +56,7 @@ export const Menu = styled.div`
     right: 20px;
     width: 50%;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.colors.white};
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     overflow: hidden;
     z-index: 10000;
@@ -68,7 +66,7 @@ export const Menu = styled.div`
 
     .active {
         background-color: #eee;
-        color: #4A7C59;
+        color: ${({ theme }) => theme.colors.button};
         padding: 5px;
         border-radius: 3px;
     }
@@ -78,7 +76,7 @@ export const Menu = styled.div`
     transition: all 0.5s ease;
 
     a {
-        color: #437280;
+        color: ${({ theme }) => theme.colors.titles};
         list-style: none;
         font-weight: 800;
     }
@@ -88,7 +86,7 @@ export const Menu = styled.div`
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         background: none;
-        background-color: #437280;
+        background-color: ${({ theme }) => theme.colors.titles};
         color: #fff;
         font-weight: 800;
         width: 100%;
@@ -124,7 +122,7 @@ export const Menu = styled.div`
         }
         
         li {
-            color: #4A7C59;
+            color: ${({ theme }) => theme.colors.title};
             list-style: none;
             transition: transform 0.8s ease;
             text-align: center;

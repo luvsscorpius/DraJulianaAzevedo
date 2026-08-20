@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const main = styled.main`
     font-size: 12px;
-    background: #F2F9FB;
+    background: ${({ theme }) => theme.colors.teal};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,6 @@ export const main = styled.main`
             height: 620px;
             padding: 0 30px;
             justify-content: space-between;
-            
         }
 
         hr {
@@ -40,10 +39,10 @@ export const miniTitle = styled.div`
     width: 100%;
 
     span {
-        background-color: #E8F4F5;
+        background-color: ${({ theme }) => theme.colors.teal};
         padding: 8px 20px;
         border-radius: 10px;
-        color: #437280;
+        color: ${({ theme }) => theme.colors.titles};
         font-weight: 500;
         z-index: 1;
     }
@@ -79,7 +78,7 @@ export const titleDiv = styled.div`
         z-index: 1;
 
         span {
-            color: #396A78;
+            color: ${({ theme }) => theme.colors.titles};
         }
     }
 
@@ -136,13 +135,13 @@ export const buttonsDiv = styled.div`
     }
 
     .agendar {
-        background-color: #396A78;
+        background-color: ${({ theme }) => theme.colors.titles};
         color: #fff;
     }
 
     .conhecaMais {
         color: #396A78;
-        background-color: #fff;
+        background-color: ${({ theme }) => theme.colors.white};
     }
 
     @media (min-width: 1024px) {
@@ -160,7 +159,7 @@ export const plusDiv = styled.div`
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    color: #396A78;
+    color: ${({ theme }) => theme.colors.titles};
     font-size: 14px;
 
     @media (min-width: 768px) {
@@ -182,6 +181,7 @@ export const imgDiv = styled.div`
     padding-bottom: 20px;
 
     img {
+        display: none;
         width: 90%;
         border-radius: 15px;
         object-fit: cover;
@@ -195,7 +195,9 @@ export const imgDiv = styled.div`
     }
 
     @media (min-width: 1024px) {
+
 	    img {
+            diplay: flex;
             margin-top: 30px;
             border-radius: 15px;
             width: 530px;
