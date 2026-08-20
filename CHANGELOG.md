@@ -1,3 +1,11 @@
+# [1.21.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.20.0...v1.21.0) (2026-08-20)
+
+
+### Features
+
+* **blobs:** implementing blobs ([6ab84ea](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/6ab84eaf9d742b9a869552795b392653d87f2683))
+* **theme.jsx:** implenting theme ([afec898](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/afec898e4afcdf489507f738b8ffb6ce54417826))
+
 # [1.20.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.19.0...v1.20.0) (2026-08-19)
 
 
