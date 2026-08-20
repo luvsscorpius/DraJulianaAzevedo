@@ -8,6 +8,10 @@ export const footer = styled.footer`
     flex-direction: column;
     gap: 20px;
 
+    p {
+        overflow-wrap: break-word;
+    }
+
     hr {
         opacity: 80%;
         border: 1px solid #7A838F;
@@ -113,6 +117,7 @@ export const footerBodyDiv = styled.div`
             list-style-type: none;
             opacity: 80%;
             font-size: 14px;
+            overflow-wrap: break-word;
         }
 
         li:hover {

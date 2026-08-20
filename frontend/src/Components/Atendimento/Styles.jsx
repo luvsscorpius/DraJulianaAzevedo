@@ -5,6 +5,27 @@ export const main = styled.main`
     display: flex;
     flex-direction: column;
     gap: 15px;
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    .blobEsquerdo,
+    .blobDireito {
+        position: absolute;
+        width: 100%;
+        z-index: 0;
+        top: -20px;
+        height: 150px;
+    }
+
+    .blobEsquerdo {
+        left: -150px;
+    }
+
+    .blobDireito {
+        right: -150px;
+    }
 
     @media (min-width: 1024px) {
         padding: 30px 60px;
@@ -16,15 +37,21 @@ export const titleDiv = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 
     p { 
         color: ${({theme}) => theme.colors.titles};
         font-size: 16px;
+        position: relative;
+        z-index: 1;
     }
 
     h2 {
         width: 80%;
         text-align: center;
+        position: relative;
+        z-index: 1;
     }
 
     @media (min-width: 1024px) {
@@ -44,6 +71,8 @@ export const descDiv = styled.div`
         padding: 0px 30px 0px 30px;
         font-size: 14px;
         color: ${({theme}) => theme.colors.p};
+        position: relative;
+        z-index: 1;
     }
         
     @media (min-width: 768px) {
@@ -70,6 +99,8 @@ export const cardDiv = styled.div`
     align-items: center;
     justify-content: center;
     gap: 20px;
+    position: relative;
+    z-index: 1;
 
     @media (min-width: 768px) {
         display: grid;

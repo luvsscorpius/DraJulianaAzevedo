@@ -7,6 +7,8 @@ export const main = styled.main`
     background: ${({theme}) => theme.colors.beje};
     scroll-margin-top: 80px;
     padding: 30px 0;
+    position: relative;
+    z-index: 10;
 
     @media (min-width: 768px) {
         gap: 30px;

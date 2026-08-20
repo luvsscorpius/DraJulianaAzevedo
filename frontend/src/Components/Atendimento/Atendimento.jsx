@@ -4,10 +4,15 @@ import location from '../../Assets/img/location.webp'
 import checked from '../../Assets/img/checked.webp'
 import clock from '../../Assets/img/clock.webp'
 import draJulianaHorario from "../../Assets/img/draJulianaHorario.webp"
+import blobAtendimentoDireito from '../../Assets/img/blobAtendimentoDireito.svg'
+import blobAtendimentoEsquerdo from '../../Assets/img/blobAtendimentoEsquerdo.svg'
 
 export const Atendimento = () => {
   return (
     <A.main>
+      <img src={blobAtendimentoEsquerdo} alt="blob esquerdo" className='blobEsquerdo' />
+      <img src={blobAtendimentoDireito} alt="blob direito" className='blobDireito'/>
+
       <A.titleDiv>
         <p>COMO FUNCIONA</p>
         <h2>Modalidades de Atendimento</h2>

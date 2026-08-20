@@ -6,49 +6,51 @@ import blobHero from '../../Assets/img/blobHero.svg'
 export const Hero = () => {
     return (
         <H.main id="inicio">
+
+            <img src={blobHero} alt="Blob do componente hero" className='blob' />
+
             <span className='firstContainer'>
-            <H.miniTitle>
-                <span>
-                    Saúde Mental
-                </span>
-            </H.miniTitle>
+                <H.miniTitle>
+                    <span>
+                        Saúde Mental
+                    </span>
+                </H.miniTitle>
 
-            <H.titleDivContainer>
-                <H.titleDiv>
-                    <h2>
-                        Cuidar da sua saúde mental é um ato de
-                        <span> coragem e amor-próprio</span>
-                    </h2>
+                <H.titleDivContainer>
+                    <H.titleDiv>
+                        <h2>
+                            Cuidar da sua saúde mental é um ato de
+                            <span> coragem e amor-próprio</span>
+                        </h2>
 
-                    <p>
-                        Bem-vindo ao espaço de cuidado e acolhimento da Dra. Juliana Azevedo. Aqui você encontra um atendimento psiquiátrico humanizado, baseado em ciência, escuta ativa e respeito à sua jornada.
-                    </p>
-                    
-                    <img src={blobHero} alt="Blob do componente hero" />
-                </H.titleDiv>
+                        <p>
+                            Bem-vindo ao espaço de cuidado e acolhimento da Dra. Juliana Azevedo. Aqui você encontra um atendimento psiquiátrico humanizado, baseado em ciência, escuta ativa e respeito à sua jornada.
+                        </p>
 
-                <H.buttonsDiv>
-                    <button className='agendar'>
-                        Agendar Consulta &#8594;
-                    </button>
-                    <button className='conhecaMais'>
-                        Conheça Mais
-                    </button>
-                </H.buttonsDiv>
-            </H.titleDivContainer>
+                    </H.titleDiv>
 
-            <hr />
+                    <H.buttonsDiv>
+                        <button className='agendar'>
+                            Agendar Consulta &#8594;
+                        </button>
+                        <button className='conhecaMais'>
+                            Conheça Mais
+                        </button>
+                    </H.buttonsDiv>
+                </H.titleDivContainer>
 
-            <H.plusDiv>
-                <p><h2>18+ </h2>
-                    Anos de Experiência</p>
+                <hr />
 
-                <p><h2>100%</h2>
-                    Acolhimento</p>
+                <H.plusDiv>
+                    <p><h2>18+ </h2>
+                        Anos de Experiência</p>
 
-                <p><h2>2+</h2>
-                Modalidades</p>
-            </H.plusDiv>
+                    <p><h2>100%</h2>
+                        Acolhimento</p>
+
+                    <p><h2>2+</h2>
+                        Modalidades</p>
+                </H.plusDiv>
             </span>
 
             <H.imgDiv>

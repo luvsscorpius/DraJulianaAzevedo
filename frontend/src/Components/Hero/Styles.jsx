@@ -6,9 +6,23 @@ export const main = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
+    overflow: hidden;
+
+    .blob {
+        position: absolute;
+        width: 100%;
+        z-index: 0;
+        left: 10px;
+        top: -90px;
+        height: 600px;
+    }
 
     hr {
         width: 90%;
+        position: relative;
+        z-index: 1;
     }
 
     @media (min-width: 1024px) {
@@ -37,6 +51,7 @@ export const miniTitle = styled.div`
     display: flex;
     align-items: start;
     width: 100%;
+    z-index: 1;
 
     span {
         background-color: ${({ theme }) => theme.colors.teal};
@@ -61,6 +76,7 @@ export const titleDivContainer = styled.div`
     flex-direction: column;
     gap: 15px;
     position: relative;
+    z-index: 1;
 
     @media (min-width: 1024px) {
        padding: 10px 0;
@@ -72,6 +88,7 @@ export const titleDiv = styled.div`
     flex-direction: column;
     gap: 10px;
     position: relative;
+    z-index: 1;
 
     h2 {
         font-size: 25px;
@@ -79,6 +96,8 @@ export const titleDiv = styled.div`
 
         span {
             color: ${({ theme }) => theme.colors.titles};
+                z-index: 1;
+
         }
     }
 
@@ -97,6 +116,8 @@ export const titleDiv = styled.div`
         z-index: 0;
         pointer-events: none;
         user-select: none;
+            z-index: 1;
+
     }
 
     @media (min-width: 1024px) {
@@ -116,6 +137,7 @@ export const buttonsDiv = styled.div`
     align-items: center;
     justify-content: center;
     gap: 15px;
+    z-index: 1;
 
     button {
         width: 100%;
@@ -137,6 +159,8 @@ export const buttonsDiv = styled.div`
     .agendar {
         background-color: ${({ theme }) => theme.colors.titles};
         color: #fff;
+            z-index: 1;
+
     }
 
     .conhecaMais {
@@ -161,6 +185,8 @@ export const plusDiv = styled.div`
     justify-content: space-between;
     color: ${({ theme }) => theme.colors.titles};
     font-size: 14px;
+    position: relative;
+    z-index: 1;
 
     @media (min-width: 768px) {
 	    width: 60%;
@@ -179,6 +205,7 @@ export const imgDiv = styled.div`
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
+    z-index: 1;
 
     img {
         display: none;
