@@ -7,7 +7,6 @@ export const main = styled.main`
     flex-direction: column;
     align-items: center;
     position: relative;
-
     overflow: hidden;
 
     .blob {
@@ -35,7 +34,7 @@ export const main = styled.main`
             display: flex;
             flex-direction: column;
             width: 45%;
-            height: 620px;
+            height: 100%;
             padding: 0 30px;
             justify-content: space-between;
         }
@@ -43,6 +42,17 @@ export const main = styled.main`
         hr {
             width: 100%;
         }
+
+    .blob {
+        position: absolute;
+        overflow: hidden;
+        pointer-events: none;
+        width: 100vw;
+        height: 800px;
+        top: 10px;
+        object-fit: cover;
+        z-index: 0;
+    }
     }
 `
 
@@ -222,9 +232,8 @@ export const imgDiv = styled.div`
     }
 
     @media (min-width: 1024px) {
-
 	    img {
-            diplay: flex;
+            display: flex;
             margin-top: 30px;
             border-radius: 15px;
             width: 530px;

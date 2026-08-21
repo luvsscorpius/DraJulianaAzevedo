@@ -6,31 +6,30 @@ export const main = styled.main`
     gap: 10px;
     margin-top: 20px;
     scroll-margin-top: 80px;
-
+    
     @media (min-width: 1024px) {
-        gap: 0;
-        padding: 30px;
+    gap: 0;
+    padding: 30px;
 
-        .firstContainer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            padding: 30px;
-        }
-
-        .secondContainer {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            padding: 30px;
-            align-items: center;
-            justify-content: center;
-            height: 555px;
-        }   
+    .firstContainer {
+        display: flex;
+        align-items: stretch;     
+        justify-content: center;
+        width: 100%;
+        gap: 40px;              
+        padding: 30px 30px;
     }
 
+    .secondContainer {
+        width: 55%;           
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px 0px 30px 30px;
+        align-items: center;
+        justify-content: center;
+    }   
+}
 `
 
 export const titleDiv = styled.div`
@@ -76,6 +75,7 @@ export const descDiv = styled.div`
     @media (min-width: 1024px) {
         width: 100%;
         padding: 0;
+        height: 100%;
 
         p {
             font-size: 18px;
@@ -118,7 +118,7 @@ export const palavraChaveDiv = styled.div`
         width: 100%;
         padding: 0;
         gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
         span {
             height: 50px;
@@ -141,7 +141,7 @@ export const infoDivContainer = styled.div`
     @media (min-width: 1024px) {
         display: flex;
         flex-direction: row;
-        padding: 0 60px;
+        padding: 0 30px;
     }
 `
 
@@ -172,6 +172,12 @@ export const card = styled.div`
         }
     }
 
+    &:hover {
+        cursor: pointer;
+        transform: scale(0.93);
+        transition: all 0.5s ease;
+    }
+
     h2 {
         font-size: 20px;
         color: ${({ theme }) => theme.colors.titles};
@@ -200,18 +206,18 @@ export const imgDiv = styled.div`
         }
     }
 
-    @media (min-width: 1024px) {
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        width: 100%;
-        padding: 0 30px;
+@media (min-width: 1024px) {
+        width: 45%;
+        flex-shrink: 0;        
+        padding: 0;
+        align-items: stretch;   
+        justify-content: center;
 
         img {
             width: 100%;
-            height: 555px;
-            object-fit: cover;
-            object-position: top center; 
+            height: 100%;        
+            object-fit: cover;    
+            object-position: center top;  
         }
     }
 `

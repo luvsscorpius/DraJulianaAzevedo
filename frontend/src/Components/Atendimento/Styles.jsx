@@ -13,10 +13,10 @@ export const main = styled.main`
     .blobEsquerdo,
     .blobDireito {
         position: absolute;
-        width: 100%;
+        width: 300px;
+        height: 300px;
+        top: -200px;
         z-index: 0;
-        top: -20px;
-        height: 150px;
     }
 
     .blobEsquerdo {
@@ -27,8 +27,42 @@ export const main = styled.main`
         right: -150px;
     }
 
+    @media (min-width: 768px) and (max-width: 1023px) {
+
+    .blobEsquerdo,
+    .blobDireito {
+        width: 300px;
+        height: 300px;
+        top: -80px;
+    }
+
+    .blobEsquerdo {
+        left: -130px;
+    }
+
+    .blobDireito {
+        right: -130px;
+    }
+
+}
+
     @media (min-width: 1024px) {
         padding: 30px 60px;
+
+        .blobEsquerdo,
+        .blobDireito {
+            width: 450px;
+            height: 400px;
+            top: -150px;
+        }
+
+        .blobEsquerdo {
+            left: -150px;
+        }
+
+        .blobDireito {
+            right: -150px;
+        }
     }
 `
 
@@ -130,7 +164,7 @@ export const card = styled.div`
     width: 90%;
 
     .cardClock {
-        background-color: #F2F9FB;
+        background-color: ${({theme}) => theme.colors.white};
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 15px;
 
@@ -138,17 +172,13 @@ export const card = styled.div`
             position: relative;
 
             img {
-                width: 250px;
+                width: 150px;
                 position: absolute;
                 z-index: 1;
-
-                right: 280px;
-                top: 90px;
-
+                right: 200px;
+                top: 120px;
                 opacity: 0;
-
                 transform: translateX(0px) scale(0.7) scaleX(1);
-
                 transform-origin: right center;
 
                 transition:
@@ -192,24 +222,58 @@ export const card = styled.div`
         }
     }
 
+    @media (min-width: 724px) {
+        .cardClock {
+        .secondContainer {
+            position: relative;
+
+            img {
+                width: 150px;
+                position: absolute;
+                z-index: 1;
+                right: 350px;
+                top: 80px;
+                opacity: 0;
+                transform: translateX(0px) scale(0.7) scaleX(1);
+                transform-origin: right center;
+
+                transition:
+                    transform 0.5s ease,
+                    opacity 0.3s ease;
+            }
+        }
+        }
+    }
+
     @media (min-width: 1024px) {
         justify-items: center;
+        position: relative;
+        z-index: 1;
 
         .cardClock {
             display: flex;
             flex-direction: row;
+            align-items: center;
+            justify-content: center;
             gap: 20px;
             padding: 50px 100px;
-            width: 80%;
+            width: 1000px;
             height: 290px;
 
+            .firstContainer {
+                height: 100%;
+                padding: 20px 0;
+            }
+
             .secondContainer {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-                padding: 0;
-                margin: 0;
+                position: relative;
+                z-index: 0;
+
+                img {
+                    position: absolute;
+                    z-index: 1;
+                    top: 97px;
+                }
             }
 
             .secondContainer h2 {
@@ -223,6 +287,7 @@ export const card = styled.div`
 
             button {
                 height: 50px;
+                z-index: 1;
             }
         }
     }

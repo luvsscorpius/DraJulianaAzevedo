@@ -12,6 +12,7 @@ export const Sobre = () => {
             <S.titleDiv>
                 <p>SOBRE A PROFISSIONAL</p>
                 <h2>Dra. Juliana Azevedo</h2>
+                <h3>CRM/MG 48194</h3>
             </S.titleDiv>
 
             <div className='firstContainer'>

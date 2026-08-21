@@ -33,7 +33,7 @@ export const Hero = () => {
                         <button className='agendar'>
                             Agendar Consulta &#8594;
                         </button>
-                        <button className='conhecaMais'>
+                        <button className='conhecaMais' id='sobre'>
                             Conheça Mais
                         </button>
                     </H.buttonsDiv>
