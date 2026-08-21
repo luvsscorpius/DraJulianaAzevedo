@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.21.0...v1.22.0) (2026-08-21)
+
+
+### Features
+
+* **mobile first:** adjusting design to desktop ([c5e051f](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/c5e051f863b2f813aa524e384e98530b9bbce5d0))
+
 # [1.21.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.20.0...v1.21.0) (2026-08-20)
 
 
