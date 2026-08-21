@@ -4,6 +4,11 @@ import ImgDraJuliana from '../../Assets/img/DraJuliana.webp'
 import blobHero from '../../Assets/img/blobHero.svg'
 
 export const Hero = () => {
+
+    const goTo = () => (
+        window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")
+    )
+
     return (
         <H.main id="inicio">
 
@@ -24,16 +29,16 @@ export const Hero = () => {
                         </h2>
 
                         <p>
-                            Bem-vindo ao espaço de cuidado e acolhimento da Dra. Juliana Azevedo. Aqui você encontra um atendimento psiquiátrico humanizado, baseado em ciência, escuta ativa e respeito à sua jornada.
+                            Bem-vindo ao espaço de cuidado e acolhimento da Dra. Juliana Azevedo. Aqui você encontra um atendimento médico humanizado, baseado em ciência, escuta ativa e respeito à sua jornada.
                         </p>
 
                     </H.titleDiv>
 
                     <H.buttonsDiv>
-                        <button className='agendar'>
+                        <button className='agendar' onClick={goTo}>
                             Agendar Consulta &#8594;
                         </button>
-                        <button className='conhecaMais' id='sobre'>
+                        <button className='conhecaMais'>
                             Conheça Mais
                         </button>
                     </H.buttonsDiv>

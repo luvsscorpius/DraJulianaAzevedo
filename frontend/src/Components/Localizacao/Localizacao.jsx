@@ -10,6 +10,11 @@ import clockGreen from '../../Assets/img/clockGreen.webp'
 import draJulianaCartoon from "../../Assets/img/draJulianaCartoon.webp"
 
 export const Localizacao = () => {
+
+    const goTo = () => {
+        window.open("https://www.google.com/maps/dir//Pronto+Cl%C3%ADnica+Dr.+Luna,+R.+Cel.+Ot%C3%A1vio+Meyer,+223+-+Centro,+Pouso+Alegre+-+MG,+37550-067/@-22.8524032,-45.2165632,15z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94cbc7b5857501f7:0x19b7ce73186337c6!2m2!1d-45.9393178!2d-22.2286806?entry=ttu&g_ep=EgoyMDI2MDgxNy4wIKXMDSoASAFQAw%3D%3D")
+    }
+
     return (
         <L.main id='localizacao'> 
             <L.titleDiv>
@@ -75,7 +80,7 @@ export const Localizacao = () => {
                         </L.card>
                     </L.cardContainer>
 
-                    <button>Ver Rotas no Google Maps</button>
+                    <button onClick={goTo}>Ver Rotas no Google Maps</button>
                 </L.locationBody>
                 </div>
 

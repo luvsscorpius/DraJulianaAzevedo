@@ -191,7 +191,7 @@ export const card = styled.div`
             width: 100%;
             margin-top: 10px;
             height: 40px;
-            background-color: #548290;
+            background-color: ${({theme}) => theme.colors.titles};
             color: #fff;
             border: none;
             border-radius: 10px;
@@ -263,6 +263,8 @@ export const card = styled.div`
             .firstContainer {
                 height: 100%;
                 padding: 20px 0;
+
+                
             }
 
             .secondContainer {
@@ -294,14 +296,14 @@ export const card = styled.div`
 `
 
 export const cardHeader = styled.div`
-    background-color: #437280;
+    background-color: ${({theme}) => theme.colors.titles};
     height: 100%;
     padding: 30px 30px 30px 30px;
     border-radius: 15px 15px 0px 0px;
     color: #fff;
 
     span {
-        background-color: #548290;
+        background-color: ${({theme}) => theme.colors.titles};
         height: 60px;
         display: flex;
         align-items: center;

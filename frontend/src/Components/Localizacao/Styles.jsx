@@ -16,7 +16,7 @@ export const titleDiv = styled.div`
     padding: 30px;
 
     h3 {
-        color: ${({ theme }) => theme.colors.title};
+        color: ${({ theme }) => theme.colors.titles};
         font-weight: 500;
         font-size: 16px;
     }

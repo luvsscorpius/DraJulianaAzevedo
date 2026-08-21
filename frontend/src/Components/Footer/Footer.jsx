@@ -15,11 +15,11 @@ export const Footer = () => {
 
                     <F.iconsDiv>
                         <span>
-                            <a href="/#"><img src={instagram} alt="Ícone do instagram" /></a>
+                            <a href="https://www.instagram.com/drajulianaazevedo.medica/"><img src={instagram} alt="Ícone do instagram" /></a>
                         </span>
 
                         <span>
-                            <a href="/#"><img src={facebook} alt="Ícone do facebook" className='facebook' /></a>
+                            <a href="https://www.facebook.com/juliana.souzaazevedotresinari"><img src={facebook} alt="Ícone do facebook" className='facebook' /></a>
                         </span>
 
                         <span>
@@ -47,7 +47,8 @@ export const Footer = () => {
                         <ul>
                             <li>(35) 9 9921-5198</li>
                             <li>financeiro@wsmedicinadotrabalho.com.br</li>
-                            <li>Agendar pelo Whatsapp</li>
+                            <li>julianasazevedo@hotmail.com</li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig" target='_blank'>Agendar pelo Whatsapp</a></li>
                         </ul>
                     </div>
 

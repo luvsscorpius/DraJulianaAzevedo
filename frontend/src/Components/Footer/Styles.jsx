@@ -8,6 +8,10 @@ export const footer = styled.footer`
     flex-direction: column;
     gap: 20px;
 
+    a {
+        color: #fff;
+    }
+
     p {
         overflow-wrap: break-word;
     }
