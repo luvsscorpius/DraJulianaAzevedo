@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.22.0...v1.23.0) (2026-08-21)
+
+
+### Features
+
+* **links:** links ([7b3a079](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/7b3a0799d1ef3cf2a24e64b5b237a550c5a4467a))
+
 # [1.22.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.21.0...v1.22.0) (2026-08-21)
 
 
