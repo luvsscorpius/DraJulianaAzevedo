@@ -5,7 +5,7 @@ import smile from '../../Assets/img/smile.webp'
 import chart from '../../Assets/img/chart.webp'
 import shield from '../../Assets/img/shield.webp'
 import saudemental1 from '../../Assets/img/saudemental1.webp'
-import saudemental2 from '../../Assets/img/saudemental2.webp'
+import saudemental2 from '../../Assets/img/saudemental2.svg'
 import saudemental3 from '../../Assets/img/saudemental3.webp'
 
 export const SaudeMental = () => {
