@@ -5,6 +5,18 @@ import facebook from '../../Assets/img/facebook.webp'
 import linkedin from '../../Assets/img/linkedin.webp'
 
 export const Footer = () => {
+
+    const scrollToSelection = (id) => {
+        const element = document.getElementById(id)
+
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            })
+        }
+    }
+
     return (
         <F.footer>
             <div className="firstContainer">
@@ -33,11 +45,10 @@ export const Footer = () => {
                         <h4>Navegação</h4>
 
                         <ul className='nav'>
-                            <li>Inicio</li>
-                            <li>Sobre</li>
-                            <li>Saúde Mental</li>
-                            <li>Atendimento</li>
-                            <li>Localização</li>
+                            <li onClick={() => scrollToSelection("inicio")}>Inicio</li>
+                            <li onClick={() => scrollToSelection("sobre")}>Sobre</li>
+                            <li onClick={() => scrollToSelection("saudeMental")}>Saúde Mental</li>
+                            <li onClick={() => scrollToSelection("localizacao")}>Localização</li>
                         </ul>
                     </div>
 
