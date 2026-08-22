@@ -103,7 +103,7 @@ export const Localizacao = () => {
                         <h3>Agende sua Consulta</h3>
                         <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
                         <img src={draJulianaCartoon} alt="icone cartoon da Dra." />
-                        <button>Falar pelo WhatsApp</button>
+                        <button onClick={() => window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")}>Falar pelo WhatsApp</button>
                     </L.agendarConsulta>
                 </div>
             </L.locationDiv>

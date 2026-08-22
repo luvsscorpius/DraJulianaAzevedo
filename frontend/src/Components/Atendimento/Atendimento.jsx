@@ -8,6 +8,10 @@ import blobAtendimentoDireito from '../../Assets/img/blobAtendimentoDireito.svg'
 import blobAtendimentoEsquerdo from '../../Assets/img/blobAtendimentoEsquerdo.svg'
 
 export const Atendimento = () => {
+  const goTo = () => {
+    window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")
+  }
+
   return (
     <A.main>
       <img src={blobAtendimentoEsquerdo} alt="blob esquerdo" className='blobEsquerdo' />
@@ -102,7 +106,7 @@ export const Atendimento = () => {
               <p>Oferecemos horários adaptados à sua rotina, incluindo opções durante a semana. Entre em contato para verificar disponibilidade e agendar sua consulta.</p>
 
               <img src={draJulianaHorario} alt="Icone da Dra. cartoon" />
-              <button>Consultar Horários</button>
+              <button onClick={goTo}>Consultar Horários</button>
             </div>
           </A.cardHeader>
         </A.card>
