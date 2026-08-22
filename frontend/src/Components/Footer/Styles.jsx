@@ -51,11 +51,11 @@ export const footerHeaderDiv = styled.div`
 
     @media (min-width: 1024px) {
         align-items: start;
+        justify-content: end;
         padding: 0 60px;
-        gap: 15px;
         
         p {
-            width: 90%;
+            width: 100%;
         }
     }
 `
@@ -138,7 +138,8 @@ export const footerBodyDiv = styled.div`
         align-items: start;
         width: 120%;
         justify-content: space-around;
-        padding: 0 60px 0 0;
+        padding: 0 30px 0 0;
+        height: 100%;
     }
 `
 
