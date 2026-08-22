@@ -73,7 +73,7 @@ export const Footer = () => {
 
                 <div className="secondContainer">
                     <p>Desenvolvido com ❤️ para cuidar de você</p>
-                    <p>Desenvolvido por Anderson Vitor</p>
+                    <p><a href="https://luvsscorpius.github.io/dev-and-portfolio-react/" target='_blank'>Desenvolvido por Anderson Vitor</a></p>
                 </div>
 
             </F.footerFooterDiv>
