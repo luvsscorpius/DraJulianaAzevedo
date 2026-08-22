@@ -75,10 +75,10 @@ export const Menu = styled.div`
     opacity: ${({ open }) => (open ? "1" : "0.7")};
     transition: all 0.5s ease;
 
-    a {
+    li {
         color: ${({ theme }) => theme.colors.titles};
         list-style: none;
-        font-weight: 800;
+        font-weight: 600;
     }
 
     button {
@@ -126,7 +126,6 @@ export const Menu = styled.div`
             list-style: none;
             transition: transform 0.8s ease;
             text-align: center;
-            font-weight: 800;
 
             &:hover {
                 cursor: pointer;

@@ -15,15 +15,15 @@ export const Footer = () => {
 
                     <F.iconsDiv>
                         <span>
-                            <a href="https://www.instagram.com/drajulianaazevedo.medica/"><img src={instagram} alt="Ícone do instagram" target='_blank'/></a>
+                            <a href="https://www.instagram.com/drajulianaazevedo.medica/"><img src={instagram} alt="Ícone do instagram" target='_blank' rel="noreferrer" /></a>
                         </span>
 
                         <span>
-                            <a href="https://www.facebook.com/juliana.souzaazevedotresinari"><img src={facebook} alt="Ícone do facebook" className='facebook' target='_blank' /></a>
+                            <a href="https://www.facebook.com/juliana.souzaazevedotresinari"><img src={facebook} alt="Ícone do facebook" className='facebook' target='_blank' rel="noreferrer" /></a>
                         </span>
 
                         <span>
-                            <a href="/https://www.linkedin.com/in/juliana-azevedo-tresinari-98a565363/"><img src={linkedin} alt="Ícone do linkedin" target='_blank' /></a>
+                            <a href="/https://www.linkedin.com/in/juliana-azevedo-tresinari-98a565363/"><img src={linkedin} alt="Ícone do linkedin" target='_blank' rel="noreferrer" /></a>
                         </span>
                     </F.iconsDiv>
                 </F.footerHeaderDiv>
@@ -48,7 +48,7 @@ export const Footer = () => {
                             <li>(35) 9 9921-5198</li>
                             <li>financeiro@wsmedicinadotrabalho.com.br</li>
                             <li>julianasazevedo@hotmail.com</li>
-                            <li><a href="https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig" target='_blank'>Agendar pelo Whatsapp</a></li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig" target='_blank' rel="noreferrer" >Agendar pelo Whatsapp</a></li>
                         </ul>
                     </div>
 
@@ -73,7 +73,7 @@ export const Footer = () => {
 
                 <div className="secondContainer">
                     <p>Desenvolvido com ❤️ para cuidar de você</p>
-                    <p><a href="https://luvsscorpius.github.io/dev-and-portfolio-react/" target='_blank'>Desenvolvido por Anderson Vitor</a></p>
+                    <p><a href="https://luvsscorpius.github.io/dev-and-portfolio-react/" target='_blank' rel="noreferrer" >Desenvolvido por Anderson Vitor</a></p>
                 </div>
 
             </F.footerFooterDiv>

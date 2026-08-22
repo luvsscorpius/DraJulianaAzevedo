@@ -30,11 +30,11 @@ export const Header = () => {
 
       <H.Menu open={open}>
         <ul>
-          <li onClick={() => scrollToSelection("inicio")}><a>Inicio</a></li>
-          <li onClick={() => scrollToSelection("sobre")}><a>Sobre</a> </li>
-          <li onClick={() => scrollToSelection("saudeMental")}><a>Saúde Mental</a> </li>
-          <li onClick={() => scrollToSelection("localizacao")}><a>Localização</a> </li>
-          <button>Agendar Consulta</button>
+          <li onClick={() => scrollToSelection("inicio")}>Inicio</li>
+          <li onClick={() => scrollToSelection("sobre")}>Sobre</li>
+          <li onClick={() => scrollToSelection("saudeMental")}>Saúde Mental</li>
+          <li onClick={() => scrollToSelection("localizacao")}>Localização</li>
+          <button onClick={() => window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")} rel="noreferrer" >Agendar Consulta</button>
         </ul>
       </H.Menu>
     </H.header>

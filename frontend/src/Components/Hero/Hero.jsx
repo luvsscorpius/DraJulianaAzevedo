@@ -9,6 +9,17 @@ export const Hero = () => {
         window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")
     )
 
+    const scrollToSelection = (id) => {
+        const element = document.getElementById(id)
+    
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            })
+        }
+    }
+
     return (
         <H.main id="inicio">
 
@@ -38,7 +49,7 @@ export const Hero = () => {
                         <button className='agendar' onClick={goTo}>
                             Agendar Consulta &#8594;
                         </button>
-                        <button className='conhecaMais'>
+                        <button className='conhecaMais' onClick={() => scrollToSelection("sobre")}>
                             Conheça Mais
                         </button>
                     </H.buttonsDiv>
