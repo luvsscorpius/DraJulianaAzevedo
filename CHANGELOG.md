@@ -1,3 +1,20 @@
+# [1.24.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.23.0...v1.24.0) (2026-08-23)
+
+
+### Bug Fixes
+
+* **footer:** fixing ([cabeae7](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/cabeae73432b30e20f835a258f17bfce83caafe0))
+* **links:** links ([071addd](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/071addd801f7809ec12ccdb8818fce896c860d74))
+
+
+### Features
+
+* **footer:** adding href to my portfolio ([6d1e3c1](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/6d1e3c121f9e6f0a52abb895e811d2f0685605da))
+* **footer:** adding links to lis ([c69824f](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/c69824fb51b90fa9d2bcadbbceb8e298313195e0))
+* **footer:** adding targets to a ([1baa4bf](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/1baa4bf9fbf49800fcb2776645ec4e12dfbd4bbe))
+* **links:** links ([fb13df2](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/fb13df204ffcb40567a3acad5c4c25babbefa055))
+* **saudemental:** changing photo ([02bd122](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/02bd12223a99eb76c9d186f2d71d4ec1c5039c45))
+
 # [1.23.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.22.0...v1.23.0) (2026-08-21)
 
 
