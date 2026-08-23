@@ -13,7 +13,6 @@ function App() {
     <Footer/>
    </>
   );
-  //teste 
 }
 
 export default App;
