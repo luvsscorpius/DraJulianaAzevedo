@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.24.0...v1.25.0) (2026-08-23)
+
+
+### Features
+
+* **index.html:** adding better ceo e icon ([e148a84](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/e148a847bb780b2372be120d678ab7ca742bfae4))
+
 # [1.24.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.23.0...v1.24.0) (2026-08-23)
 
 
