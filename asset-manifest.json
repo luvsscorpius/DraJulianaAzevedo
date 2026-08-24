@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/DraJulianaAzevedo/static/css/main.2e662a65.css",
+    "main.js": "/DraJulianaAzevedo/static/js/main.54aa16e3.js",
+    "static/media/saudemental2.svg": "/DraJulianaAzevedo/static/media/saudemental2.248317b4fb6c73041afa8f432d64f8b2.svg",
+    "static/media/saudemental3.webp": "/DraJulianaAzevedo/static/media/saudemental3.986b9daba35d27f08b38.webp",
+    "static/media/DraJulianaHero.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero.87cfd111f96443ffacc4.webp",
+    "static/media/DraJuliana.webp": "/DraJulianaAzevedo/static/media/DraJuliana.806208e458777e53263b.webp",
+    "static/media/saudemental1.webp": "/DraJulianaAzevedo/static/media/saudemental1.c24adc6b7cdcf52e41b1.webp",
+    "static/media/draJulianaCartoon.webp": "/DraJulianaAzevedo/static/media/draJulianaCartoon.905418fe3dc3678cb53c.webp",
+    "static/media/draJulianaHorario.webp": "/DraJulianaAzevedo/static/media/draJulianaHorario.b59591a548270cce2ef2.webp",
+    "index.html": "/DraJulianaAzevedo/index.html",
+    "static/media/brain.webp": "/DraJulianaAzevedo/static/media/brain.9ab66b70ce4464f3b72e.webp",
+    "static/media/smile.webp": "/DraJulianaAzevedo/static/media/smile.d4f367407c8bb44b689e.webp",
+    "static/media/telephone.webp": "/DraJulianaAzevedo/static/media/telephone.0e6f4c388a32038a0133.webp",
+    "static/media/locationGreen.webp": "/DraJulianaAzevedo/static/media/locationGreen.18f79e610d69a43216db.webp",
+    "static/media/blobHero.svg": "/DraJulianaAzevedo/static/media/blobHero.79df7616ac9d40c71884d31c8df4c730.svg",
+    "static/media/blobAtendimentoEsquerdo.svg": "/DraJulianaAzevedo/static/media/blobAtendimentoEsquerdo.c745d784f22986d9e393e97f13f87519.svg",
+    "static/media/checked.webp": "/DraJulianaAzevedo/static/media/checked.d2b0282821764fa7badf.webp",
+    "static/media/blobAtendimentoDireito.svg": "/DraJulianaAzevedo/static/media/blobAtendimentoDireito.df8f9dcd7d6f8a8999aceaf0b0bfe8d8.svg",
+    "static/media/shield.webp": "/DraJulianaAzevedo/static/media/shield.ed710e93677f45b01349.webp",
+    "static/media/badge.webp": "/DraJulianaAzevedo/static/media/badge.0948ade4cad3791901eb.webp",
+    "static/media/clockGreen.webp": "/DraJulianaAzevedo/static/media/clockGreen.1fb06d35e837e5c87c5f.webp",
+    "static/media/location.webp": "/DraJulianaAzevedo/static/media/location.2ae589e5fe51a11e75da.webp",
+    "static/media/instagram.webp": "/DraJulianaAzevedo/static/media/instagram.9a82fa2b48279e976d93.webp",
+    "static/media/heart.webp": "/DraJulianaAzevedo/static/media/heart.1894f9f97b1db41e3d40.webp",
+    "static/media/user.webp": "/DraJulianaAzevedo/static/media/user.4bdd8f1f6b47e4658b08.webp",
+    "static/media/clock.webp": "/DraJulianaAzevedo/static/media/clock.d1a3380eea5f3616b776.webp",
+    "static/media/chart.webp": "/DraJulianaAzevedo/static/media/chart.4cfa8c8d77e55f3a7ccd.webp",
+    "static/media/linkedin.webp": "/DraJulianaAzevedo/static/media/linkedin.8726d33e3f1e51bfc3ee.webp",
+    "static/media/book.webp": "/DraJulianaAzevedo/static/media/book.0c41d098d8422f185f99.webp",
+    "static/media/facebook.webp": "/DraJulianaAzevedo/static/media/facebook.3263a00683fd4f0892ff.webp",
+    "main.2e662a65.css.map": "/DraJulianaAzevedo/static/css/main.2e662a65.css.map",
+    "main.54aa16e3.js.map": "/DraJulianaAzevedo/static/js/main.54aa16e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e662a65.css",
+    "static/js/main.54aa16e3.js"
+  ]
+}
