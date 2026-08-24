@@ -27,15 +27,15 @@ export const Footer = () => {
 
                     <F.iconsDiv>
                         <span>
-                            <a href="https://www.instagram.com/drajulianaazevedo.medica/"><img src={instagram} alt="Ícone do instagram" target='_blank' rel="noreferrer" /></a>
+                            <a href="https://www.instagram.com/drajulianaazevedo.medica/"><img src={instagram} alt="Ícone do instagram" target='_blank' rel="noreferrer" loading="lazy"/></a>
                         </span>
 
                         <span>
-                            <a href="https://www.facebook.com/juliana.souzaazevedotresinari"><img src={facebook} alt="Ícone do facebook" className='facebook' target='_blank' rel="noreferrer" /></a>
+                            <a href="https://www.facebook.com/juliana.souzaazevedotresinari"><img src={facebook} alt="Ícone do facebook" className='facebook' target='_blank' rel="noreferrer" loading="lazy"/></a>
                         </span>
 
                         <span>
-                            <a href="/https://www.linkedin.com/in/juliana-azevedo-tresinari-98a565363/"><img src={linkedin} alt="Ícone do linkedin" target='_blank' rel="noreferrer" /></a>
+                            <a href="/https://www.linkedin.com/in/juliana-azevedo-tresinari-98a565363/"><img src={linkedin} alt="Ícone do linkedin" target='_blank' rel="noreferrer" loading="lazy" /></a>
                         </span>
                     </F.iconsDiv>
                 </F.footerHeaderDiv>

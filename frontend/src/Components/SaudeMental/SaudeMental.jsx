@@ -25,7 +25,7 @@ export const SaudeMental = () => {
                 <S.cardContainer>
                     <S.card>
                         <span>
-                            <img src={brain} alt="Icone de cerebro" />
+                            <img src={brain} alt="Icone de cerebro" loading="lazy" />
                             <h3>Equilíbrio Mental</h3>
                         </span>
 
@@ -34,7 +34,7 @@ export const SaudeMental = () => {
 
                     <S.card>
                         <span>
-                            <img src={smile} alt="Icone de sorisso" />
+                            <img src={smile} alt="Icone de sorisso" loading="lazy"/>
                             <h3>Qualidade de Vida</h3>
                         </span>
 
@@ -43,7 +43,7 @@ export const SaudeMental = () => {
 
                     <S.card>
                         <span>
-                            <img src={chart} alt="Icone de gráfico" />
+                            <img src={chart} alt="Icone de gráfico" loading="lazy"/>
                             <h3>Desenvolvimento Pessoal</h3>
                         </span>
 
@@ -52,7 +52,7 @@ export const SaudeMental = () => {
 
                     <S.card>
                         <span>
-                            <img src={shield} alt="Icone de escudo" />
+                            <img src={shield} alt="Icone de escudo" loading="lazy"/>
                             <h3>Cuidado Preventivo</h3>
                         </span>
 
@@ -63,9 +63,9 @@ export const SaudeMental = () => {
 
             <div className="secondContainer">
                 <S.imagesDiv>
-                    <img src={saudemental1} alt="" className='saudeMental1' />
-                    <img src={saudemental2} alt="" className='saudeMental2' />
-                    <img src={saudemental3} alt="" className='saudeMental3' />
+                    <img src={saudemental1} alt="" className='saudeMental1' loading="lazy"/>
+                    <img src={saudemental2} alt="" className='saudeMental2' loading="lazy"/>
+                    <img src={saudemental3} alt="" className='saudeMental3' loading="lazy"/>
 
                     <span>
                         <h2>1000+</h2>

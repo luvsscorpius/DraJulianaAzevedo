@@ -17,7 +17,7 @@ export const Sobre = () => {
 
             <div className='firstContainer'>
                 <S.imgDiv>
-                    <img src={ImgDraJuliana} alt="Imagem da Dra. Juliana" />
+                    <img src={ImgDraJuliana} alt="Imagem da Dra. Juliana" loading="lazy" />
                 </S.imgDiv>
 
                 <div className='secondContainer'>
@@ -90,7 +90,7 @@ export const Sobre = () => {
             <S.infoDivContainer>
                 <S.card>
                     <span>
-                        <img src={badge} alt="Icone de trofeu" />
+                        <img src={badge} alt="Icone de trofeu" loading="lazy" />
                     </span>
 
                     <h2>18 Anos de Experiência</h2>
@@ -100,7 +100,7 @@ export const Sobre = () => {
 
                 <S.card>
                     <span>
-                        <img src={heart} alt="Icone de coração" />
+                        <img src={heart} alt="Icone de coração" loading="lazy" />
                     </span>
 
                     <h2>Escuta Ativa</h2>
@@ -110,7 +110,7 @@ export const Sobre = () => {
 
                 <S.card>
                     <span>
-                        <img src={book} alt="Icone de livro" />
+                        <img src={book} alt="Icone de livro" loading="lazy"/>
                     </span>
 
                     <h2>Ciência e Ética</h2>
@@ -120,7 +120,7 @@ export const Sobre = () => {
 
                 <S.card>
                     <span>
-                        <img src={user} alt="Icone de pessoas" />
+                        <img src={user} alt="Icone de pessoas"loading="lazy" />
                     </span>
 
                     <h2>Atendimento Individualizado</h2>

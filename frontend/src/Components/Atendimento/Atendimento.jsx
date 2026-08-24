@@ -14,8 +14,8 @@ export const Atendimento = () => {
 
   return (
     <A.main>
-      <img src={blobAtendimentoEsquerdo} alt="blob esquerdo" className='blobEsquerdo' />
-      <img src={blobAtendimentoDireito} alt="blob direito" className='blobDireito'/>
+      <img src={blobAtendimentoEsquerdo} alt="blob esquerdo" className='blobEsquerdo' loading="lazy" />
+      <img src={blobAtendimentoDireito} alt="blob direito" className='blobDireito' loading="lazy"/>
 
       <A.titleDiv>
         <p>COMO FUNCIONA</p>
@@ -39,22 +39,22 @@ export const Atendimento = () => {
 
           <A.cardBody>
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Ambiente reservado e confortável</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Equipamentos modernos</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Fácil acesso e estacionamento</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy" />
               <p>Atendimento personalizado</p>
             </span>
           </A.cardBody>
@@ -63,7 +63,7 @@ export const Atendimento = () => {
         <A.card>
           <A.cardHeader>
             <span>
-              <img src={location} alt="Icone de localização" />
+              <img src={location} alt="Icone de localização" loading="lazy"/>
             </span>
 
             <h2>Consulta Online</h2>
@@ -72,22 +72,22 @@ export const Atendimento = () => {
 
           <A.cardBody>
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Conforto do seu lar</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Horários flexíveis</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Mesma qualidade de atendimento</p>
             </span>
 
             <span>
-              <img src={checked} alt="Icone de check" />
+              <img src={checked} alt="Icone de check" loading="lazy"/>
               <p>Plataforma segura e confidencial</p>
             </span>
           </A.cardBody>
@@ -97,7 +97,7 @@ export const Atendimento = () => {
           <A.cardHeader className='cardClock'>
             <div className="firstContainer">
               <span>
-                <img src={clock} alt="Icone de Relógio" />
+                <img src={clock} alt="Icone de Relógio" loading="lazy"/>
               </span>
             </div>
 
@@ -105,7 +105,7 @@ export const Atendimento = () => {
               <h2>Horários Flexíveis</h2>
               <p>Oferecemos horários adaptados à sua rotina, incluindo opções durante a semana. Entre em contato para verificar disponibilidade e agendar sua consulta.</p>
 
-              <img src={draJulianaHorario} alt="Icone da Dra. cartoon" />
+              <img src={draJulianaHorario} alt="Icone da Dra. cartoon" loading="lazy"/>
               <button onClick={goTo}>Consultar Horários</button>
             </div>
           </A.cardHeader>

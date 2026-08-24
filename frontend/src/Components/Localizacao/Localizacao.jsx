@@ -44,7 +44,7 @@ export const Localizacao = () => {
                     <L.cardContainer>
                         <L.card>
                             <span className='imgDiv'>
-                                <img src={location} alt="ícone de localização" />
+                                <img src={location} alt="ícone de localização" loading="lazy" />
                             </span>
 
                             <span>
@@ -57,7 +57,7 @@ export const Localizacao = () => {
 
                         <L.card>
                             <span className='imgDiv'>
-                                <img src={telephone} alt="ícone de telefone" />
+                                <img src={telephone} alt="ícone de telefone" loading="lazy"/>
                             </span>
 
                             <span>
@@ -70,7 +70,7 @@ export const Localizacao = () => {
 
                         <L.card>
                             <span className='imgDiv'>
-                                <img src={clockGreen} alt="ícone de relógio" />
+                                <img src={clockGreen} alt="ícone de relógio" loading="lazy"/>
                             </span>
 
                             <span>
@@ -102,7 +102,7 @@ export const Localizacao = () => {
                     <L.agendarConsulta>
                         <h3>Agende sua Consulta</h3>
                         <p>Entre em contato pelo WhatsApp e escolha a melhor data e horário para seu atendimento, seja presencial ou online.</p>
-                        <img src={draJulianaCartoon} alt="icone cartoon da Dra." />
+                        <img src={draJulianaCartoon} alt="icone cartoon da Dra." loading="lazy"/>
                         <button onClick={() => window.open("https://api.whatsapp.com/send/?phone=5535999215198&text&type=phone_number&app_absent=0&utm_source=ig")}>Falar pelo WhatsApp</button>
                     </L.agendarConsulta>
                 </div>
