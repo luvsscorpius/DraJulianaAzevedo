@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.26.0...v1.27.0) (2026-08-24)
+
+
+### Features
+
+* **header:** aria label ([a4ce20d](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/a4ce20d763054a6fb2a4388321a3a0bd10c378b7))
+
 # [1.26.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.25.0...v1.26.0) (2026-08-24)
 
 
