@@ -1,3 +1,10 @@
+## [1.27.1](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.27.0...v1.27.1) (2026-08-24)
+
+
+### Bug Fixes
+
+* **alt:** saudemental ([ebea157](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/ebea157ed26ea663f0e025d193d747df730191c1))
+
 # [1.27.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.26.0...v1.27.0) (2026-08-24)
 
 
