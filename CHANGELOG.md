@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.25.0...v1.26.0) (2026-08-24)
+
+
+### Features
+
+* **images:** adding loading lazy to images ([3b8cb7a](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/3b8cb7aadb9fc733f5b8630ea44deaf4c91a6670))
+
 # [1.25.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.24.0...v1.25.0) (2026-08-23)
 
 
