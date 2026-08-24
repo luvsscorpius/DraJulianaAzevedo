@@ -63,9 +63,9 @@ export const SaudeMental = () => {
 
             <div className="secondContainer">
                 <S.imagesDiv>
-                    <img src={saudemental1} alt="" className='saudeMental1' loading="lazy"/>
-                    <img src={saudemental2} alt="" className='saudeMental2' loading="lazy"/>
-                    <img src={saudemental3} alt="" className='saudeMental3' loading="lazy"/>
+                    <img src={saudemental1} alt="Imagem ilustrativa de saude mental" className='saudeMental1' loading="lazy"/>
+                    <img src={saudemental2} alt="Imagem ilustrativa de consultorio" className='saudeMental2' loading="lazy"/>
+                    <img src={saudemental3} alt="Imagem ilustrativa de meditação" className='saudeMental3' loading="lazy"/>
 
                     <span>
                         <h2>1000+</h2>
