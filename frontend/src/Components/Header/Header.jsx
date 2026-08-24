@@ -23,7 +23,7 @@ export const Header = () => {
     <H.header>
       <h2>Dra. Juliana Azevedo</h2>
 
-      <button className='menuButton' onClick={() => setOpen(!open)}>
+      <button className='menuButton' aria-label="Abrir menu" onClick={() => setOpen(!open)}>
         <IoMdMenu size={35} />
       </button>
 
