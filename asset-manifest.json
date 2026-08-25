@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DraJulianaAzevedo/static/css/main.2e662a65.css",
-    "main.js": "/DraJulianaAzevedo/static/js/main.fa5d811e.js",
+    "main.js": "/DraJulianaAzevedo/static/js/main.8192afc7.js",
     "static/media/saudemental2.svg": "/DraJulianaAzevedo/static/media/saudemental2.248317b4fb6c73041afa8f432d64f8b2.svg",
     "static/media/DraJulianaHero-650.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero-650.dac10ebec46e6d8a7b29.webp",
     "static/media/DraJulianaHero-400.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero-400.71e1d08c06194c07ba6a.webp",
@@ -34,10 +34,10 @@
     "static/media/book.webp": "/DraJulianaAzevedo/static/media/book.0c41d098d8422f185f99.webp",
     "static/media/facebook.webp": "/DraJulianaAzevedo/static/media/facebook.3263a00683fd4f0892ff.webp",
     "main.2e662a65.css.map": "/DraJulianaAzevedo/static/css/main.2e662a65.css.map",
-    "main.fa5d811e.js.map": "/DraJulianaAzevedo/static/js/main.fa5d811e.js.map"
+    "main.8192afc7.js.map": "/DraJulianaAzevedo/static/js/main.8192afc7.js.map"
   },
   "entrypoints": [
     "static/css/main.2e662a65.css",
-    "static/js/main.fa5d811e.js"
+    "static/js/main.8192afc7.js"
   ]
 }
