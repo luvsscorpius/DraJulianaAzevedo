@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/DraJulianaAzevedo/static/css/main.2e662a65.css",
-    "main.js": "/DraJulianaAzevedo/static/js/main.d01bae41.js",
+    "main.js": "/DraJulianaAzevedo/static/js/main.debca241.js",
     "static/media/saudemental2.svg": "/DraJulianaAzevedo/static/media/saudemental2.248317b4fb6c73041afa8f432d64f8b2.svg",
+    "static/media/DraJulianaHero-650.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero-650.dac10ebec46e6d8a7b29.webp",
+    "static/media/DraJulianaHero-400.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero-400.71e1d08c06194c07ba6a.webp",
+    "static/media/DraJulianaHero-1000.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero-1000.50b772907dd62984e257.webp",
     "static/media/saudemental3.webp": "/DraJulianaAzevedo/static/media/saudemental3.986b9daba35d27f08b38.webp",
     "static/media/DraJulianaHero.webp": "/DraJulianaAzevedo/static/media/DraJulianaHero.87cfd111f96443ffacc4.webp",
     "static/media/DraJuliana.webp": "/DraJulianaAzevedo/static/media/DraJuliana.806208e458777e53263b.webp",
@@ -31,10 +34,10 @@
     "static/media/book.webp": "/DraJulianaAzevedo/static/media/book.0c41d098d8422f185f99.webp",
     "static/media/facebook.webp": "/DraJulianaAzevedo/static/media/facebook.3263a00683fd4f0892ff.webp",
     "main.2e662a65.css.map": "/DraJulianaAzevedo/static/css/main.2e662a65.css.map",
-    "main.d01bae41.js.map": "/DraJulianaAzevedo/static/js/main.d01bae41.js.map"
+    "main.debca241.js.map": "/DraJulianaAzevedo/static/js/main.debca241.js.map"
   },
   "entrypoints": [
     "static/css/main.2e662a65.css",
-    "static/js/main.d01bae41.js"
+    "static/js/main.debca241.js"
   ]
 }
