@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.27.1...v1.28.0) (2026-08-25)
+
+
+### Features
+
+* **hero:** optimizing images ([877f238](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/877f2381f26058f5252fe227f1b8190312892769))
+
 ## [1.27.1](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.27.0...v1.27.1) (2026-08-24)
 
 
