@@ -74,7 +74,7 @@ export const Hero = () => {
 
             <H.imgDiv>
             <img
-  src={DraJulianaHero650}
+  src={ImgDraJuliana}
   srcSet={`
     ${DraJulianaHero400} 400w,
     ${DraJulianaHero650} 650w,
