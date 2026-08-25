@@ -22,15 +22,13 @@ export const Sobre = () => {
 
                     <img
                         src={DraJulianaHero}
-                        alt="Dra. Juliana Azevedo"
-                        loading="lazy"
-
-                        type="image/webp"
                         srcSet={`
-      ${DraJulianaHero400} 400w,
-      ${DraJulianaHero650} 650w,
-      ${DraJulianaHero} 1000w
-    `}
+    ${DraJulianaHero400} 400w,
+    ${DraJulianaHero650} 650w,
+    ${DraJulianaHero} 1350w
+  `}
+                        sizes="(max-width: 768px) 100vw, 649px"
+                        alt="Dra. Juliana Azevedo"
                     />
                 </S.imgDiv>
 
