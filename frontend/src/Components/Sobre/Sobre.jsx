@@ -20,12 +20,25 @@ export const Sobre = () => {
 
             <div className='firstContainer'>
                 <S.imgDiv>
-                    <img src={DraJulianaHero650} alt="Imagem da Dra. Juliana" loading="lazy"   srcSet={`
-    ${DraJulianaHero400} 400w,
-    ${DraJulianaHero650} 650w,
-    ${DraJulianaHero1000} 1000w
-  `}
-  sizes="(max-width: 768px) 90vw, 649px" />
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcSet={`
+      ${DraJulianaHero400} 400w,
+      ${DraJulianaHero650} 650w,
+      ${DraJulianaHero900} 900w
+    `}
+                            sizes="(max-width: 768px) 90vw, 649px"
+                        />
+
+                        <img
+                            src={DraJulianaHero650}
+                            alt="Dra. Juliana Azevedo"
+                            width="650"
+                            height="811"
+                            loading="lazy"
+                        />
+                    </picture>
                 </S.imgDiv>
 
                 <div className='secondContainer'>
@@ -118,7 +131,7 @@ export const Sobre = () => {
 
                 <S.card>
                     <span>
-                        <img src={book} alt="Icone de livro" loading="lazy"/>
+                        <img src={book} alt="Icone de livro" loading="lazy" />
                     </span>
 
                     <h2>Ciência e Ética</h2>
@@ -128,7 +141,7 @@ export const Sobre = () => {
 
                 <S.card>
                     <span>
-                        <img src={user} alt="Icone de pessoas"loading="lazy" />
+                        <img src={user} alt="Icone de pessoas" loading="lazy" />
                     </span>
 
                     <h2>Atendimento Individualizado</h2>
