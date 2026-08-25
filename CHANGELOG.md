@@ -1,3 +1,10 @@
+## [1.28.6](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.5...v1.28.6) (2026-08-25)
+
+
+### Bug Fixes
+
+* **fix:** changing images ([503bf94](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/503bf94803e461cfbf65b121a0ef31e74226f7a3))
+
 ## [1.28.5](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.4...v1.28.5) (2026-08-25)
 
 
