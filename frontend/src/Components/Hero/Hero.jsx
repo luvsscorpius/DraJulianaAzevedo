@@ -1,9 +1,9 @@
 import React from 'react'
 import * as H from './Styles'
 import ImgDraJuliana from '../../Assets/img/DraJuliana.webp'
-import DraJulianaHero400 from '../../assets/DraJulianaHero-400.webp';
-import DraJulianaHero650 from '../../assets/DraJulianaHero-650.webp';
-import DraJulianaHero1000 from '../../assets/DraJulianaHero-1000.webp';
+import DraJulianaHero400 from '../../assets/img/DraJulianaHero-400.webp';
+import DraJulianaHero650 from '../../assets/img/DraJulianaHero-650.webp';
+import DraJulianaHero1000 from '../../assets/img/DraJulianaHero-1000.webp';
 import blobHero from '../../Assets/img/blobHero.svg'
 
 export const Hero = () => {
