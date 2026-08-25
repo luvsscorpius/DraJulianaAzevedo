@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.12...v1.29.0) (2026-08-25)
+
+
+### Features
+
+* **deploy:** deploy ([2bc0b26](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/2bc0b26218d0c8d154057a943e276bcc6474a436))
+
 ## [1.28.12](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.11...v1.28.12) (2026-08-25)
 
 
