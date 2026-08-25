@@ -34,8 +34,6 @@ export const Sobre = () => {
                         <img
                             src={DraJulianaHero650}
                             alt="Dra. Juliana Azevedo"
-                            width="650"
-                            height="811"
                             loading="lazy"
                         />
                     </picture>
