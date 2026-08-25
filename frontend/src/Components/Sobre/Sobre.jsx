@@ -1,13 +1,12 @@
 import React from 'react'
 import * as S from './Styles'
-import ImgDraJuliana from '../../Assets/img/DraJulianaHero.webp'
 import badge from '../../Assets/img/badge.webp'
 import heart from '../../Assets/img/heart.webp'
 import book from '../../Assets/img/book.webp'
 import user from '../../Assets/img/user.webp'
-import DraJulianaHero400 from '../../assets/img/DraJulianaHero-400.webp';
-import DraJulianaHero650 from '../../assets/img/DraJulianaHero-650.webp';
-import DraJulianaHero1000 from '../../assets/img/DraJulianaHero-1000.webp';
+import DraJulianaHero from '../../Assets/img/DraJulianaHero.webp';
+import DraJulianaHero400 from '../../Assets/img/DraJulianaHero-400.webp';
+import DraJulianaHero650 from '../../Assets/img/DraJulianaHero-650.webp';
 
 export const Sobre = () => {
     return (
@@ -20,25 +19,19 @@ export const Sobre = () => {
 
             <div className='firstContainer'>
                 <S.imgDiv>
-                    <picture>
-                        <source
-                            type="image/webp"
-                            srcSet={`
+
+                    <img
+                        src={DraJulianaHero}
+                        alt="Dra. Juliana Azevedo"
+                        loading="lazy"
+
+                        type="image/webp"
+                        srcSet={`
       ${DraJulianaHero400} 400w,
       ${DraJulianaHero650} 650w,
-      ${DraJulianaHero1000} 900w
+      ${DraJulianaHero} 1000w
     `}
-                            sizes="(max-width: 768px) 90vw, 649px"
-                        />
-
-                        <img
-                            src={DraJulianaHero650}
-                            alt="Dra. Juliana Azevedo"
-                            width="650"
-                            height="811"
-                            loading="lazy"
-                        />
-                    </picture>
+                    />
                 </S.imgDiv>
 
                 <div className='secondContainer'>
