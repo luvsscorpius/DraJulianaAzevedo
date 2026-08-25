@@ -21,7 +21,7 @@ export const Sobre = () => {
                 <S.imgDiv>
 
                     <img
-                        src={DraJulianaHero}
+                        src={DraJulianaHero650}
                         srcSet={`
     ${DraJulianaHero400} 400w,
     ${DraJulianaHero650} 650w,
