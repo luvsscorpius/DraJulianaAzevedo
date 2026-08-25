@@ -26,7 +26,7 @@ export const Sobre = () => {
                             srcSet={`
       ${DraJulianaHero400} 400w,
       ${DraJulianaHero650} 650w,
-      ${DraJulianaHero900} 900w
+      ${DraJulianaHero1000} 900w
     `}
                             sizes="(max-width: 768px) 90vw, 649px"
                         />
