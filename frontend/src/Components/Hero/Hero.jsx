@@ -1,9 +1,6 @@
 import React from 'react'
 import * as H from './Styles'
 import ImgDraJuliana from '../../Assets/img/DraJuliana.webp'
-import DraJulianaHero400 from '../../assets/img/DraJulianaHero-400.webp';
-import DraJulianaHero650 from '../../assets/img/DraJulianaHero-650.webp';
-import DraJulianaHero1000 from '../../assets/img/DraJulianaHero-1000.webp';
 import blobHero from '../../Assets/img/blobHero.svg'
 
 export const Hero = () => {
@@ -75,12 +72,6 @@ export const Hero = () => {
             <H.imgDiv>
             <img
   src={ImgDraJuliana}
-  srcSet={`
-    ${DraJulianaHero400} 400w,
-    ${DraJulianaHero650} 650w,
-    ${DraJulianaHero1000} 1000w
-  `}
-  sizes="(max-width: 768px) 90vw, 649px"
   alt="Imagem da Dra. Juliana"
 />
             </H.imgDiv>
