@@ -1,3 +1,10 @@
+## [1.28.9](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.8...v1.28.9) (2026-08-25)
+
+
+### Bug Fixes
+
+* **fix:** fixing ([d86db66](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/d86db66d59efae8fb6ee37c9b177af593ac5db62))
+
 ## [1.28.8](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.28.7...v1.28.8) (2026-08-25)
 
 
