@@ -5,6 +5,9 @@ import badge from '../../Assets/img/badge.webp'
 import heart from '../../Assets/img/heart.webp'
 import book from '../../Assets/img/book.webp'
 import user from '../../Assets/img/user.webp'
+import DraJulianaHero400 from '../../assets/img/DraJulianaHero-400.webp';
+import DraJulianaHero650 from '../../assets/img/DraJulianaHero-650.webp';
+import DraJulianaHero1000 from '../../assets/img/DraJulianaHero-1000.webp';
 
 export const Sobre = () => {
     return (
@@ -17,7 +20,12 @@ export const Sobre = () => {
 
             <div className='firstContainer'>
                 <S.imgDiv>
-                    <img src={ImgDraJuliana} alt="Imagem da Dra. Juliana" loading="lazy" />
+                    <img src={DraJulianaHero650} alt="Imagem da Dra. Juliana" loading="lazy"   srcSet={`
+    ${DraJulianaHero400} 400w,
+    ${DraJulianaHero650} 650w,
+    ${DraJulianaHero1000} 1000w
+  `}
+  sizes="(max-width: 768px) 90vw, 649px" />
                 </S.imgDiv>
 
                 <div className='secondContainer'>
