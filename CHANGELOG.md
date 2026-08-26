@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.29.4...v1.30.0) (2026-08-26)
+
+
+### Features
+
+* **readme:** readme ([e6faffa](https://github.com/luvsscorpius/DraJulianaAzevedo/commit/e6faffae4171e5db2004c36ba01a74803b0ae8af))
+
 ## [1.29.4](https://github.com/luvsscorpius/DraJulianaAzevedo/compare/v1.29.3...v1.29.4) (2026-08-25)
 
 
